@@ -1,17 +1,23 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Composición de la leche, aditivos y procesos de elaboración de quesos',
+    Description:
+      'Este componente formativo aborda los fundamentos de la composición fisicoquímica de la leche, su importancia como materia prima en la industria láctea, los requisitos de calidad exigidos por la normatividad colombiana, los aditivos autorizados y su función, y los procesos tecnológicos para la elaboración de diferentes tipos de queso. Se describen las etapas comunes del proceso quesero y las particularidades de variedades como queso blanco, campesino, Camembert, Cheddar, Gruyere, doble crema, crema, parmesano y mozzarella.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -64,6 +70,12 @@ export default {
         nombreRuta: 'tema5',
         numero: '5',
         titulo: 'Tema 5',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Tema 6',
         desarrolloContenidos: true,
       },
     ],

@@ -1,46 +1,406 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 28%
+    right: 40%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
+    
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 82%
+    right: 84%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
+    
+  &-3
+    position: absolute
+    top: 65%
+    right: 5%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 11%
+      right: 40%
+      width: 100px
+    &-2
+      top: 77%
+      right: 84%
+      width: 100px
+    &-3
+      top: 58%
+      right: 2%
+      width: 100px
+
+@keyframes orbitPerfect
+  from
+    transform: rotate(0deg) translateX(12px) rotate(0deg)
+  to
+    transform: rotate(360deg) translateX(12px) rotate(-360deg)
+    
 .banner-principal .tarjeta
   background-position: left 50% !important
 
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+  
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
+
+.banner-principal__row .banner-principal__img
+  width: 450px !important
+  padding-top: 5rem !important
+  padding-bottom: 0 !important
+  @media screen and (max-width: $bp-max-xl)
+    padding-top: 10rem !important
+    padding-bottom: 0 !important
+    width: 400px !important
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-xs.png') !important
+
+  @media (min-width: $bp-min-sm)
+    background-image: url('../assets/curso/portada/fondo-banner-principal-sm.png') !important
+
+  @media (min-width: $bp-min-lg)
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: $white
+
+.banner-interno__titulo__icono 
+  background: $color-primario
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto
+ 
+.barra-avance__boton--regresar span
+  color: $color-sistema-texto !important
 
 figcaption
   font-weight: normal
 
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+//subtitulo-destacado
+.subtitulo-destacado
+  display: inline-flex
+  align-items: center 
+  width: fit-content
+  max-width: 100%
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+  &__icono
+    flex-shrink: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 3.9rem
+    height: 3.9rem
+    position: relative
+    z-index: 1
+    margin-top: -1.6rem
+
+  &__img
+    width: 80%  
+    height: 80%
+    object-fit: contain
+    display: block
+    position: static 
+
+  &__fondo
+    display: flex
+    align-items: center
+    background-color: $color-secundario-20
+    border-radius: 10px
+    padding: 0.5rem 2.4rem 0.5rem 5rem 
+    margin-left: -4.5rem  
+
+  &__texto
+    font-size: 1.15rem
+    font-weight: 800
+    color: $color-sistema-texto
+    margin: 0
+    line-height: 1.3
+    word-break: break-word
+
+@media (max-width: 576px)
+  .subtitulo-destacado
+    width: 100%
+
+    &__icono
+      width: 3.4rem
+      height: 3.4rem
+
+    &__fondo
+      flex: 1
+      padding: 0.5rem 2.4rem 0.5rem 5rem
+
+    &__texto
+      font-size: 1rem
+
+// Tabla a 
+.tabla-a thead
+  border-top: 10px $color-primario solid
+  color: $color-sistema-a
+  background-color: $color-primario-10
+
+.bg-table-01
+  border-top: 10px $color-primario solid
+  background-color: $color-primario-10
+  color: $color-sistema-texto
+  font-weight: bold
+  font-size: 1.2rem
+
+// acordion
+.acordion__activo
+  background-color: $color-acento-contenido-10
+  background-repeat: no-repeat
+  background-size: cover 
+  background-position: center
+  overflow: hidden 
+.acordion__contenido 
+  padding-left: 3.5rem
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+
+////.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+    color: $color-sistema-texto
+
+////tabs-a
+
+// TabsA 
+.tabs-a.color-acento-botones.mb-3.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 45% !important
+      max-width: 45% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 35% !important
+        max-width: 35% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 55% !important
+      max-width: 55% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 65% !important
+        max-width: 65% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.tarjeta-tabs-a.color-primario-o.mb-0.uno .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 5rem  !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  flex-direction: column !important
+  justify-content: center !important
+
+.tabs-a
+  .tarjeta
+    display: flex  !important
+    flex-direction: column  !important
+    justify-content: center  !important
+
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/introduccion/img_1.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_5.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema1/img_7.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -80px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 115%
+      background-image: url('../assets/curso/tema2/img_2.png') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-secundario-70 !important
+      border-color: $color-secundario-70 !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-secundario-70, 15%)
+      border: 1px solid lighten($color-secundario-70, 15%)
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema2/img_7.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_6
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema4/img_11.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_7
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema5/img_2.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none

@@ -1,12 +1,218 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Proceso general de elaboración de quesos
 
+    .bloque-texto-g.color-secundario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema5/img_1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El queso es el resultado de la concentración de la materia seca de la leche mediante coagulación, separación del suero y, en muchos casos, maduración. Aunque cada variedad tiene sus particularidades, el proceso sigue etapas comunes. En este capítulo se describen dichas etapas, que constituyen la base para comprender las especificidades de los diferentes tipos de queso. Dominar cada etapa permite al técnico ajustar los parámetros para obtener el queso deseado, ya sea fresco, blando, semiduro o duro.
+
+    .bg_img_7.mb-0
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-lg-8.mb-3
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            |    las 9 etapas del queso
+          figure(data-aos="flip-left")
+            img(src='@/assets/curso/tema5/img_3.svg', class="img-fluid d-none d-lg-block").mb-3
+            img(src='@/assets/curso/tema5/img_3.svg', class="img-fluid d-block d-lg-none").mb-3
+            figcaption Nota. SENA, (2026). 
+    
+    .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
+      p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
+
+    .row.justify-content-center.align-items-center.mt-5.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-secundario-70.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-6.col-lg-6.mb-lg-0.mb-3
+              figure
+                img(src="@/assets/curso/tema3/img_2.png", class="img-fluid w-100")
+            .col-12.col-lg-6.mb-lg-0
+              h2.mb-5.text-white Pódcast
+              TarjetaAudio.color-acento-botones.mb-0.p-4(
+                texto="<I>Quesos del mundo: de la tradición colombiana a la técnica internacional.</I>"
+                :audio="require('@/assets/curso/tema3/img_2.png')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = True")
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio") 
+
+    Separador
+
+    #t_5_1.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 5.1 Estandarización de la leche y cultivos
+    .mb-0 
+
+    .tarjeta.color-terciario-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+      p.mb-0 La estandarización consiste en ajustar la relación grasa/proteína de la leche para obtener un queso con el contenido graso deseado en el extracto seco. Cada tipo de queso tiene un rango definido de grasa en el extracto seco (por ejemplo, queso fresco 40-45 %; queso duro 50-60 %). 
+
+    p.mb-5(data-aos="flip-left") Este ajuste se realiza mezclando la leche entera con leche descremada o con crema, según se requiera reducir o aumentar la grasa. Para calcular la cantidad necesaria, se utiliza la siguiente fórmula (Meyer, 2014):
+
+    .row.justify-content-center.align-items-center.mt-5.mb-5
+      .col-12.col-lg-7
+        .tarjeta.color-secundario-10.p-4.rounded-3.mb-0(data-aos="zoom-in-right")
+          p.text-center.mb-0 Grasa de la leche (%) = Contenido proteico de la leche (%) × Factor de estandarización
+
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+      h5 Tabla 6.
+      |  Factores de estandarización según tipo de queso
+    .tabla-a.mb-5(data-aos="flip-left")
+      table
+        caption 
+          p.mb-0 Nota. Adaptado de Meyer (2014).
+        thead
+          tr
+            th.col-auto.col-lg-2 Tipo de queso
+            th.col-auto.col-lg-4 Contenido graso del extracto seco (%)
+            th.col-auto.col-lg-2 Factor
+            th.col-auto.col-lg-auto Ejemplo de aplicación
+        tbody
+          tr
+            td.text-start(rowspan="5") Queso fresco.
+            td 20
+            td 0,33
+            td.text-start Para queso fresco con 20 % grasa en extracto seco, si la leche tiene 3,2 % proteína, la grasa requerida es 1,06 %.
+          tr
+            td 30
+            td 0,55
+            td.text-start 3,2 × 0,55 = 1,76 %
+          tr
+            td 40
+            td 0,79
+            td.text-start 3,2 × 0,79 = 2,53 %
+          tr
+            td 45
+            td 0,96
+            td.text-start 3,2 × 0,96 = 3,07 %
+          tr
+            td 50
+            td 1,12
+            td.text-start 3,2 × 1,12 = 3,58 %
+          tr
+            td.text-start(rowspan="5") Queso de pasta blanda.
+            td 20
+            td 0,24
+            td.text-start 3,2 × 0,24 = 0,77 %
+          tr
+            td 30
+            td 0,44
+            td.text-start 3,2 × 0,44 = 1,41 %
+          tr
+            td 40
+            td 0,68
+            td.text-start 3,2 × 0,68 = 2,18 %
+          tr
+            td 45
+            td 0,84
+            td.text-start 3,2 × 0,84 = 2,69 %
+          tr
+            td 50
+            td 1,00
+            td.text-start 3,2 × 1,00 = 3,20 %
+          tr
+            td.text-start(rowspan="5") Queso de pasta firme.
+            td 20
+            td 0,28
+            td.text-start 3,2 × 0,28 = 0,90 %
+          tr
+            td 30
+            td 0,50
+            td.text-start 3,2 × 0,50 = 1,60 %
+          tr
+            td 40
+            td 0,74
+            td.text-start 3,2 × 0,74 = 2,37 %
+          tr
+            td 45
+            td 0,90
+            td.text-start 3,2 × 0,90 = 2,88 %
+          tr
+            td 50
+            td 1,06
+            td.text-start 3,2 × 1,06 = 3,39 %
+          tr
+            td.text-start(rowspan="2") Queso de pasta dura.
+            td 45
+            td 0,93
+            td.text-start 3,2 × 0,93 = 2,98 %
+          tr
+            td 50
+            td 1,09
+            td.text-start 3,2 × 1,09 = 3,49 %
+
+    .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+          figure
+            img(src='@/assets/curso/tema5/img_4.svg', class="img-fluid")
+        .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+          p.mb-0 Ejemplo práctico: para elaborar un queso de pasta firme con 40 % de grasa en el extracto seco, si la leche tiene 3,5 % de proteína, la grasa requerida será: 3,5 × 0,74 = 2,59 %. Si la leche entera tiene 3,5 % de grasa, no sería necesario ajustar. Si la leche tiene mayor grasa, se mezcla con leche descremada; si tiene menor, se añade crema.
+
+    .subtitulo-destacado.mb-5
+      .subtitulo-destacado__icono
+        img(src='@/assets/curso/tema1/img_3.png', aria-hidden='true').subtitulo-destacado__img
+      .subtitulo-destacado__fondo
+        h4.subtitulo-destacado__texto Siembra de cultivos lácticos
+
+    p.mb-5(data-aos="flip-left") Los cultivos lácticos son bacterias seleccionadas que fermentan la lactosa produciendo ácido láctico. Esto reduce el pH, facilita la coagulación, contribuye al sabor y textura, y ayuda a controlar microorganismos indeseables. La composición del cultivo varía según el tipo de queso.
+
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+      h5 Tabla 7.
+      |  Cultivos lácticos según tipo de queso (ampliada)
+    .tabla-a.mb-5(data-aos="flip-left")
+      table
+        caption 
+          p.mb-0 Nota. Adaptado de Meyer (2014).
+        thead
+          tr
+            th.col-auto.col-lg-auto Clase de queso
+            th.col-auto.col-lg-auto Especies bacterianas
+            th.col-auto.col-lg-auto Función
+            th.col-auto.col-lg-auto Dosis aproximada
+            th.col-auto.col-lg-auto Temperatura de incubación
+        tbody
+          tr
+            td.text-start Pasta blanda y firme.
+            td.text-start Streptococcus lactis, S. cremoris.
+            td.text-start Acidificación activa.
+            td.text-start 2 %
+            td.text-start 30 32 °C.
+          tr
+            td.text-start Pasta firme y dura.
+            td.text-start S. lactis, Lactobacillus casei, Leuconostoc citrovorum.
+            td.text-start Acidificación pasiva, producción de gas y sabor.
+            td.text-start 4 %
+            td.text-start 30 32 °C.
+          tr
+            td.text-start Pasta firme y dura (termófilos).
+            td.text-start Streptococcus thermophilus.
+            td.text-start Acidificación hasta pH 5,0.
+            td.text-start 0,1 %
+            td.text-start 40 42 °C.
+          tr
+            td.text-start Pasta dura.
+            td.text-start Lactobacillus bulgaricus, L. helveticus.
+            td.text-start Acidificación intensa a >40 °C.
+            td.text-start 0,04 %
+            td.text-start 40 45 °C.
+            
+    p.mb-5(data-aos="flip-left") La selección del cultivo adecuado es fundamental para obtener las características deseadas. Por ejemplo, los quesos de pasta dura requieren cultivos termófilos que trabajen a temperaturas elevadas durante la cocción de la cuajada.
+
+    Separador
+
+    #t_5_2.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 5.2 Coagulación y corte
+    .mb-0 
+
+    .tarjeta.color-secundario-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+      p.mb-0 La coagulación puede ser ácida (por adición de ácido o fermentación) o enzimática (con cuajo). En la elaboración de la mayoría de los quesos se emplea cuajo, una enzima (rennina) que actúa sobre la caseína formando un coágulo. El mecanismo de acción consiste en que la rennina corta la micela de caseína en dos fracciones (paracaseína y macropéptido), permitiendo que la para caseína se agregue en presencia de calcio para formar un gel tridimensional.
 
 </template>
 

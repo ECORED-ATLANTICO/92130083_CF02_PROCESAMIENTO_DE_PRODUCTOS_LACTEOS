@@ -3,7 +3,7 @@
     display: block
     width: 100%
     text-align: left
-    background-color: $color-sistema-e
+    background-color: $color-acento-botones
     padding: 15px 20px
     border-radius: 5px
     color: $color-sistema-a
@@ -47,6 +47,16 @@
         color: textColor($color-primario)
         &:before
           background-color: $color-primario
+  &.color-primario-5
+    .tabs-a__tab
+      &:hover, &:active, &:focus
+        background-color: $color-primario-5
+        color: $white
+      &__selected
+        background-color: $color-primario-5
+        color: $white
+        &:before
+          background-color: $color-primario-5
   &.color-secundario
     .tabs-a__tab
       &:hover, &:active, &:focus
@@ -69,21 +79,29 @@
           background-color: $color-acento-contenido
   &.color-acento-botones
     .tabs-a__tab
+      background-color: $color-acento-botones
       &:hover, &:active, &:focus
-        background-color: $color-acento-botones
-        color: textColor($color-acento-botones)
+        background-color: $color-acento-contenido
+        color: textColor($color-acento-contenido)
       &__selected
-        background-color: $color-acento-botones
-        color: textColor($color-acento-botones)
+        background-color: $color-acento-contenido
+        color: textColor($color-acento-contenido)
         &:before
-          background-color: $color-acento-botones
-
+          background-color: $color-acento-contenido
+  &.color-adicional-1
+    .tabs-b__tab
+      background-color: $color-adicional-1
+    .tabs-b__tab--active
+      background-color: $color-secundario-10
+      border-top-color: $color-adicional-2 !important
+    .tabs-b__content-item
+      background-color: $color-secundario-10
+      
 @keyframes tab-content-active
   0%
     opacity: 0
   100%
     opacity: 1
-
 
 .tabs-b
   border-bottom: 1px solid #AFAFAF
@@ -159,6 +177,14 @@
   &.color-acento-botones
     .tabs-b__tab--active
       border-top-color: $color-acento-botones !important
+  &.color-adicional-1
+    .tabs-b__tab
+      background-color: $color-adicional-1
+    .tabs-b__tab--active
+      background-color: $color-secundario-10
+      border-top-color: $color-adicional-2 !important
+    .tabs-b__content-item
+      background-color: $color-secundario-10
 
 .tabs-c
   border-bottom: 1px solid #AFAFAF
