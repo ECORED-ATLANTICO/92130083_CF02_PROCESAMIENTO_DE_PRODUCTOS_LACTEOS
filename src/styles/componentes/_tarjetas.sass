@@ -169,7 +169,54 @@
       background-color: lighten($color-acento-botones, 50%)
       color: textColor(lighten($color-acento-botones, 50%))
       border: solid 4px $color-acento-botones
-  
+  // Tarjeta con imagen superior en área de fondo diferenciado
+  .tarjeta-img-top
+    background-color: $white
+    border-radius: 20px
+    overflow: hidden
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08)
+    height: 100%
+    display: flex
+    flex-direction: column
+
+    &__imagen
+      background-color: $color-primario-20
+      display: flex
+      align-items: center
+      justify-content: center
+      padding: 2rem
+      min-height: 220px
+
+      figure
+        margin: 0
+        display: flex
+        align-items: center
+        justify-content: center
+
+        img
+          width: 100%
+          max-width: 200px
+          height: auto
+          object-fit: contain
+
+    &__contenido
+      padding: 1.5rem
+      text-align: center
+      flex: 1
+
+  // variantes de color para el área de imagen
+  &.color-primario-20
+    .tarjeta-img-top__imagen
+      background-color: $color-primario-20
+
+  &.color-secundario-10
+    .tarjeta-img-top__imagen
+      background-color: $color-secundario-10
+
+  &.color-acento-contenido-10
+    .tarjeta-img-top__imagen
+      background-color: $color-acento-contenido-10
+
   // Tarjeta con ícono centrado en círculo superior
   .tarjeta-icono-top
     background-color: $white
@@ -207,6 +254,25 @@
       img
         width: 50px
         height: auto
+    &--img-doble
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem
+      padding-top: 5rem  
+
+      .tarjeta-icono-top__icono
+        width: 160px
+        height: auto
+        min-width: 120px
+        border-radius: 19px
+        padding: 0.75rem 1rem
+        top: -2.5rem
+        left: 50%
+        transform: translateX(-50%)
+        gap: 0.5rem
+        flex-direction: row
+
+        img
+          width: 120px
+          height: auto
 
     &.color-primario
       background-color: $color-primario-10
@@ -485,6 +551,24 @@
   &--16::before
     position: absolute
     content: url('../assets/curso/tema4/img_20.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--17::before
+    position: absolute
+    content: url('../assets/curso/tema5/img_8.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--18::before
+    position: absolute
+    content: url('../assets/curso/tema5/img_9.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--19::before
+    position: absolute
+    content: url('../assets/curso/tema5/img_10.svg')
     top: 60px
     left: 50%
     transform: translateX(-50%)

@@ -157,11 +157,9 @@ figcaption
   background-color: $color-primario-10
 
 .bg-table-01
-  border-top: 10px $color-primario solid
-  background-color: $color-primario-10
+  border: 1px $color-adicional-3 solid
+  background-color: $white
   color: $color-sistema-texto
-  font-weight: bold
-  font-size: 1.2rem
 
 // acordion
 .acordion__activo
@@ -205,6 +203,69 @@ figcaption
       margin-right: 7px
       @media (max-width: 1024px)
         margin-right: 7px
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative
+  overflow: hidden
+  border-radius: 1.5rem
+  display: flex
+  flex-direction: column
+  height: 280px
+
+  &:hover
+    .crd_hover_txt--body
+      transform: translateY(0)
+    .crd_hover_txt--img img
+      transform: scale(1.04)
+    .crd_hover_txt--body p
+      opacity: 1
+
+  .crd_hover_txt--img
+    flex: 1 1 auto
+    overflow: hidden
+    min-height: 0
+    figure
+      margin: 0
+      width: 100%
+      height: 100%
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      display: block
+      transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+
+  .crd_hover_txt--body
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    padding: 0.75rem 1rem 1rem
+    background-color: $color-acento-contenido-20
+    border-radius: 0 
+    transform: translateY(calc(100% - 3rem))  
+    transition: transform 0.45s cubic-bezier(0.42, 0, 0.58, 1)
+    will-change: transform
+
+    h4
+      color: $color-sistema-texto
+      text-align: center
+      font-size: 0.95rem
+      line-height: 1.5rem
+      margin: 0 0 0.5rem 0
+
+    p
+      font-size: 0.85em
+      color: $color-sistema-texto
+      line-height: 1.5
+      margin: 0 
+      opacity: 0
+      transition: opacity 0.3s ease 0.2s
+
+  @media (min-width: 1200px) and (max-width: 1400px)
+    .crd_hover_txt--body p
+      font-size: 0.82em
 
 ////.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto
@@ -399,6 +460,24 @@ figcaption
       width: calc(100% + 96px)
       height: 100%
       background-image: url('../assets/curso/tema5/img_2.svg') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+  &_8
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody, .subtitulo-destacado
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/tema5/img_6.svg') !important
       background-repeat: no-repeat
       background-size: cover 
       background-position: center
