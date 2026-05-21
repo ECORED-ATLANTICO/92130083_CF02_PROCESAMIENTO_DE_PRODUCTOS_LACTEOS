@@ -29,8 +29,8 @@
             h5 Figura 3.
             |    Clasificación de quesos
           figure(data-aos="flip-left").mb-5
-            img(src='@/assets/curso/tema6/img_3.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema6/img_4.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema6/img_3.svg', class="img-fluid d-none d-lg-block", alt="Esquema que muestra la clasificación de los quesos según su contenido de grasa, maduración (fresco o madurado) y tipo de leche (cruda, pasteurizada o termizada). ").mb-3
+            img(src='@/assets/curso/tema6/img_4.svg', class="img-fluid d-block d-lg-none", alt="Esquema que muestra la clasificación de los quesos según su contenido de grasa, maduración (fresco o madurado) y tipo de leche (cruda, pasteurizada o termizada). ").mb-3
             figcaption Nota. SENA, (2026).
 
     Separador

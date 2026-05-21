@@ -32,7 +32,7 @@
           figure.mb-2
             .video.mb-2
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Buenas Prácticas de Manufactura BPM, empaque de s y elaboración de derivados lácteos.
+          figcaption Video: Composición de la leche, aditivos y procesos de elaboración de quesos.
   
 </template>
 
