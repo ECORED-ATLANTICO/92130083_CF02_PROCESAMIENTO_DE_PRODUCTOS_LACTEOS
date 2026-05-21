@@ -20,10 +20,10 @@
       .col-12.col-lg-8
         .tarjeta.color-secundario-70.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-6.mb-lg-0.mb-3
+            .col-6.col-md-4.col-lg-6.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema3/img_2.png", class="img-fluid w-100")
-            .col-12.col-lg-6.mb-lg-0
+            .col-12.col-md-8.col-lg-6.mb-lg-0
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-4(
                 texto="<I>Aditivos en la industria láctea: ciencia y regulación para un queso perfecto.</I>"
@@ -181,7 +181,7 @@
             li
               i.lista-ul__vineta-check.mb-0
               span #[strong Enfoque artesanal:] se recomienda reducir su uso y priorizar alternativas naturales, como cultivos lácticos, que contribuyen a la calidad del producto.
-      .col-10.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema3/img_5.png', class="img-fluid")
 </template>

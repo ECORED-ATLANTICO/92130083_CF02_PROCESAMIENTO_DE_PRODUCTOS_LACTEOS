@@ -45,7 +45,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img_3.svg' alt='')
                     p.mb-0  #[strong Mantenimiento:] limpieza CIP (Cleaning In Place) diaria con detergentes alcalinos y ácidos; inspección periódica de juntas y placas; calibración de sensores de temperatura.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")
             p.mb-5 #[strong Capacidades:] desde 100 L/h hasta 20.000 L/h o más.
@@ -55,10 +55,10 @@
             .col-12.col-lg-8.order-2.order-lg-1.mb-0
               .cajon.color-primario.p-4.mb-4
                 p.mb-0 #[strong Descripción:] equipo más simple, consiste en un tanque de acero inoxidable con doble chaqueta de calentamiento (baño maría) y sistema de agitación. Se utiliza en plantas artesanales.
-              p.mb-4 #[strong Funcionamiento:] la leche se calienta a 63–65 °C durante 30 minutos (pasteurización lenta) con agitación constante.
+              p.mb-4 #[strong Funcionamiento:] la leche se calienta a 63 – 65 °C durante 30 minutos (pasteurización lenta) con agitación constante.
               .tarjeta.color-acento-contenido-5.p-4.rounded-3.mb-5
                 p.mb-0 #[strong Ventajas:] bajo costo, fácil operación. Desventaja: menor productividad.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_5.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="3" titulo="Desueradora manual (o batea de desuerado)")
@@ -70,7 +70,7 @@
               p.mb-4 #[strong Descripción:] es una batea de acero inoxidable con fondo plano, provista de dos descargas de suero en los extremos. Incluye pantallas de cierre móviles en chapa perforada que permiten retener la cuajada mientras el suero drena. También cuenta con puentes de prensado que se desplazan por rieles laterales, con cilindros neumáticos o mecánicos.
               .tarjeta.color-acento-contenido-5.p-4.rounded-3.mb-0
                 p.mb-0 #[strong Uso:] se coloca la cuajada cortada sobre las pantallas, se deja drenar el suero por gravedad, luego se aplica presión con los puentes para acelerar el desuerado. Es ideal para quesos frescos y semi-madurados.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_6.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="4" titulo="Prensa quesera")
@@ -103,7 +103,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img_3.svg' alt='')
                     p.mb-0  #[strong Mantenimiento:] limpieza de moldes y telas después de cada uso; revisión de juntas y pistones; lubricación de partes móviles.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_7.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="5" titulo="Tina quesera")
@@ -142,7 +142,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img_3.svg' alt='')
                     p.mb-0  #[strong Mantenimiento:] limpieza CIP; verificación de agitadores y sellos; calibración de termómetros.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_8.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="6" titulo="Descremadora o centrífuga")
@@ -156,7 +156,7 @@
                 p.mb-0 #[strong Capacidades:] desde 100 L/h (descremadoras manuales) hasta 20.000 L/h (industriales).
                 p.mb-0 #[strong Aplicaciones:] estandarización de grasa para quesos, obtención de crema para mantequilla o leche descremada.
                 p.mb-0 #[strong Mantenimiento:] limpieza inmediata después de cada uso para evitar incrustaciones; desmontaje y lubricación de rodamientos según especificaciones.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_9.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="7" titulo="Mantequillera (batidora de mantequilla)")
@@ -179,7 +179,7 @@
                     span #[strong Industrial:] grandes volúmenes, con sistema de lavado y amasado.
               .tarjeta.color-acento-contenido-5.p-4.rounded-3.mb-5
                 p.mb-0 #[strong Proceso:] la crema se bate a temperatura controlada (8–12 °C) hasta que se forman gránulos de mantequilla; luego se lava con agua fría para eliminar suero residual y se amasa para darle textura.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_9.png', class="img-fluid")
           p.mb-0 #[strong Capacidades:] desde 5 L hasta 1000 L.
@@ -205,7 +205,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img_3.svg' alt='')
                     p.mb-0  #[strong Mantenimiento:] limpieza CIP; revisión de asientos de válvulas y pistones; calibración de presión.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_10.png', class="img-fluid")
       

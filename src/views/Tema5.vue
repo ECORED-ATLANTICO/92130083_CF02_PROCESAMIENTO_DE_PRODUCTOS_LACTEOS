@@ -31,10 +31,10 @@
       .col-12.col-lg-8
         .tarjeta.color-secundario-70.p-5.rounded-3.mb-3(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-6.mb-lg-0.mb-3
+            .col-6.col-md-4.col-lg-6.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema3/img_2.png", class="img-fluid w-100")
-            .col-12.col-lg-6.mb-lg-0
+            .col-12.col-md-8.col-lg-6.mb-lg-0
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-4(
                 texto="<I>Quesos del mundo: de la tradición colombiana a la técnica internacional.</I>"
