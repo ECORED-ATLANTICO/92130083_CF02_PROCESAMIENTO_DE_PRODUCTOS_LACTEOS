@@ -147,18 +147,34 @@
                 img(src='@/assets/curso/tema4/img_8.png', class="img-fluid")
       .row.justify-content-center.align-items-center(numero="6" titulo="Descremadora o centrífuga")
         .col-12.col-lg-12.mb-md-0
-          .row.justify-content-center.align-items-center.mb-0
+          .cajon.color-primario.p-4.mb-4
+            p.mb-0 #[strong Función:] separar la nata (crema) de la leche entera por fuerza centrífuga. Permite obtener leche descremada y crema con diferentes contenidos de grasa.
+          p.mb-5 #[strong Principio:] la leche se introduce en un tambor que gira a alta velocidad (6000–10000 rpm). La crema, al ser menos densa, se concentra en el centro y es descargada por una salida, mientras que la leche descremada sale por otra.
+          .row.justify-content-center.align-items-center.mb-4
             .col-12.col-lg-8.order-2.order-lg-1.mb-0
-              .cajon.color-primario.p-4.mb-4
-                p.mb-0 #[strong Función:] separar la nata (crema) de la leche entera por fuerza centrífuga. Permite obtener leche descremada y crema con diferentes contenidos de grasa.
-              p.mb-4 #[strong Principio:] la leche se introduce en un tambor que gira a alta velocidad (6000–10000 rpm). La crema, al ser menos densa, se concentra en el centro y es descargada por una salida, mientras que la leche descremada sale por otra.
               .tarjeta.color-acento-contenido-5.p-4.rounded-3.mb-5
-                p.mb-0 #[strong Capacidades:] desde 100 L/h (descremadoras manuales) hasta 20.000 L/h (industriales).
-                p.mb-0 #[strong Aplicaciones:] estandarización de grasa para quesos, obtención de crema para mantequilla o leche descremada.
-                p.mb-0 #[strong Mantenimiento:] limpieza inmediata después de cada uso para evitar incrustaciones; desmontaje y lubricación de rodamientos según especificaciones.
+                ul.lista-ul.lista-ul--check.mb-0
+                  li
+                    i.lista-ul__vineta-check.mb-2
+                    span #[strong Capacidades:] desde 100 L / h (descremadoras manuales) hasta 20.000 L/h (industriales).
+              br
+              .row.justify-content-center.align-items-stretch.mb-0
+                .col-12.col-lg-6.mb-5.mb-lg-0.pt-4.d-flex
+                  .tarjeta-icono-top.color-secundario-10.h-100
+                    .tarjeta-icono-top__icono
+                      figure
+                        img(src='@/assets/curso/tema4/img_2.svg' alt='')
+                    p.mb-0  #[strong Aplicaciones:] estandarización de grasa para quesos, obtención de crema para mantequilla o leche descremada.
+                .col-12.col-lg-6.mb-5.mb-lg-0.pt-4.d-flex
+                  .tarjeta-icono-top.color-secundario-10.h-100
+                    .tarjeta-icono-top__icono
+                      figure
+                        img(src='@/assets/curso/tema4/img_3.svg' alt='')
+                    p.mb-0  #[strong Mantenimiento:] limpieza inmediata después de cada uso para evitar incrustaciones; desmontaje y lubricación de rodamientos según especificaciones.
             .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
-                img(src='@/assets/curso/tema4/img_9.png', class="img-fluid")
+                img(src='@/assets/curso/tema4/img_9_1.png', class="img-fluid")
+       
       .row.justify-content-center.align-items-center(numero="7" titulo="Mantequillera (batidora de mantequilla)")
         .col-12.col-lg-12.mb-md-0
           .cajon.color-primario.p-4.mb-4
