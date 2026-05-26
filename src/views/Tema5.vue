@@ -24,8 +24,9 @@
         img(src='@/assets/curso/tema5/img_4.png', class="img-fluid d-block d-lg-none", alt="LAS 9 ETAPAS DEL QUESO Proceso básico de elaboración del queso desde la leche hasta su envasado. 1. ESTANDARIZACIÓN Se ajusta la composición de la leche (grasa, proteína y sólidos) para obtener las características deseadas en el queso. 2. INOCULACIÓN (SIEMBRA) Se adicionan cultivos lácticos para desarrollar acidez, sabor y textura característicos del queso. 3. COAGULACIÓN Se agrega el cuajo y se deja reposar hasta que la leche se transforme en un gel firme (cuajada). 4. CORTE La cuajada se corta en cubos o granos para facilitar la salida del suero y favorecer la firmeza del queso. 5. DESUERADO Se elimina parte del suero (cuajo líquido) mediante calentamiento y reposo, reduciendo su humedad. 6. MOLDEADO La cuajada se coloca en moldes para darle forma y permitir el drenaje del suero restante bajo presión. 7. SALADO Se aplica sal en seco o en salmuera para dar sabor, ayudar a conservar y controlar el desarrollo de microorganismos. 8. MADURACIÓN El queso reposa en condiciones controladas de temperatura y humedad para desarrollar sabor, textura y aroma. 9. ENVASADO El queso se protege en envases adecuados para mantener su calidad e inocuidad hasta llegar al consumidor. TEXTO FINAL (NOTA) Cada etapa debe realizarse con buenas prácticas de higiene y control para garantizar la calidad e inocuidad del queso.").mb-3
         figcaption Nota. SENA, (2026). 
     
-    .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
-      p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
+    .bg_img_9.mb-0
+      .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
+        p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-12.col-lg-8
@@ -145,13 +146,14 @@
             td 1,09
             td.text-start 3,2 × 1,09 = 3,49 %
 
-    .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
-          figure
-            img(src='@/assets/curso/tema5/img_5.svg', class="img-fluid")
-        .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-          p.mb-0 Ejemplo práctico: para elaborar un queso de pasta firme con 40 % de grasa en el extracto seco, si la leche tiene 3,5 % de proteína, la grasa requerida será: 3,5 × 0,74 = 2,59 %. Si la leche entera tiene 3,5 % de grasa, no sería necesario ajustar. Si la leche tiene mayor grasa, se mezcla con leche descremada; si tiene menor, se añade crema.
+    .bg_img_9.mb-0
+      .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/tema5/img_5.svg', class="img-fluid")
+          .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+            p.mb-0 Ejemplo práctico: para elaborar un queso de pasta firme con 40 % de grasa en el extracto seco, si la leche tiene 3,5 % de proteína, la grasa requerida será: 3,5 × 0,74 = 2,59 %. Si la leche entera tiene 3,5 % de grasa, no sería necesario ajustar. Si la leche tiene mayor grasa, se mezcla con leche descremada; si tiene menor, se añade crema.
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__icono

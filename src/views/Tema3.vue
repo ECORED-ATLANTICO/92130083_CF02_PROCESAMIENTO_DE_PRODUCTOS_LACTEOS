@@ -56,13 +56,14 @@
       .h2(data-aos="fade-right") 3.2 Aplicación en quesos y derivados
     .mb-0 
 
-    .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
-          figure
-            img(src='@/assets/curso/tema3/img_4.svg', class="img-fluid")
-        .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-          p.mb-0 En la elaboración de quesos y otros derivados lácteos, el uso de aditivos cumple funciones específicas relacionadas con la conservación, estabilidad y mejora de las características del producto final. Su aplicación debe realizarse conforme a la normativa vigente, garantizando que no se altere la naturaleza del producto ni se afecte la salud del consumidor.
+    .bg_img_9.mb-0
+      .tarjeta.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/tema3/img_4.svg', class="img-fluid")
+          .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+            p.mb-0 En la elaboración de quesos y otros derivados lácteos, el uso de aditivos cumple funciones específicas relacionadas con la conservación, estabilidad y mejora de las características del producto final. Su aplicación debe realizarse conforme a la normativa vigente, garantizando que no se altere la naturaleza del producto ni se afecte la salud del consumidor.
 
     p.mb-5(data-aos="zoom-in-right") El adecuado uso de estos aditivos permite optimizar procesos tecnológicos, mantener la calidad y asegurar condiciones de inocuidad en los productos obtenidos.
 

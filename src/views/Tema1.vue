@@ -83,14 +83,15 @@
             td.text-start Enzimas.
             td.text-start Trazas.
             td.text-start Fosfatasa, peroxidasa, lipasa, etc. Se inactivan con el calor (pasteurización).
-
-    .tarjeta.color-acento-contenido-10.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
-          figure
-            img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid")
-        .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-          p.mb-0 A continuación, se presenta una tabla con la composición de la leche expresada en gramos por cada 100 ml, considerando diferentes razas de vaca. Esta información permite identificar las variaciones en sus componentes y comprender su influencia en los procesos de transformación y elaboración de derivados lácteos.
+  
+    .bg_img_9.mb-0
+      .tarjeta.p-4.rounded-3.mb-5(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid")
+          .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+            p.mb-0 A continuación, se presenta una tabla con la composición de la leche expresada en gramos por cada 100 ml, considerando diferentes razas de vaca. Esta información permite identificar las variaciones en sus componentes y comprender su influencia en los procesos de transformación y elaboración de derivados lácteos.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Tabla 2.
