@@ -44,7 +44,9 @@
     .row.justify-content-center.align-items-start.mb-4
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img(src='@/assets/curso/tema6/img_5.png', class="img-fluid")
+          img(src='@/assets/curso/tema6/img_5.png',  class="img-fluid d-none d-lg-block")
+          img(src='@/assets/curso/tema6/img_5_1.png',  class="img-fluid d-block d-lg-none")
+
       .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Queso blanco (fresco)")
@@ -661,7 +663,8 @@
                     td.text-start.bg-table-01 –
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
         figure
-          img(src='@/assets/curso/tema6/img_6.png', class="img-fluid")
+          img(src='@/assets/curso/tema6/img_6.png',  class="img-fluid d-none d-lg-block")
+          img(src='@/assets/curso/tema6/img_6_1.png',  class="img-fluid d-block d-lg-none")
 
     Separador
 
@@ -763,7 +766,8 @@
                   td.text-start.bg-table-01 –
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_7.png', class="img-fluid")
+          img(src='@/assets/curso/tema6/img_7.png',  class="img-fluid d-none d-lg-block")
+          img(src='@/assets/curso/tema6/img_7_1.png',  class="img-fluid d-block d-lg-none")
 </template>
 
 <script>
