@@ -173,17 +173,17 @@
         .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Estación del año:")
-              p.mb-0 se ilustran cambios climáticos (sol, lluvia). En climas extremos puede haber variaciones en la producción y composición.
+              p.mb-0 Se ilustran cambios climáticos (sol, lluvia). En climas extremos puede haber variaciones en la producción y composición.
             div(titulo="Salud:")
-              p.mb-0 se indica un signo de mastitis (inflamación de la ubre) con una representación de células somáticas elevadas. Las enfermedades alteran drásticamente la composición y calidad.
+              p.mb-0 Se indica un signo de mastitis (inflamación de la ubre) con una representación de células somáticas elevadas. Las enfermedades alteran drásticamente la composición y calidad.
             div(titulo="Edad del animal:")
-              p.mb-0 se muestra una vaca joven y una adulta. Las vacas jóvenes producen leche con menor contenido graso; las de mayor edad pueden aumentar la grasa hasta cierto límite.
+              p.mb-0 Se muestra una vaca joven y una adulta. Las vacas jóvenes producen leche con menor contenido graso; las de mayor edad pueden aumentar la grasa hasta cierto límite.
             div(titulo="Estado de lactancia:")
-              p.mb-0 se representa una línea de tiempo con tres fases: calostro (primera semana, alta proteína y anticuerpos), leche madura (estable) y leche tardía (mayor grasa).
+              p.mb-0 Se representa una línea de tiempo con tres fases: calostro (primera semana, alta proteína y anticuerpos), leche madura (estable) y leche tardía (mayor grasa).
             div(titulo="Alimentación:")
-              p.mb-0 se muestra un comedero con forraje, concentrados y silos. Una alimentación rica en energía aumenta el contenido graso; una deficiencia de proteína afecta el nivel proteico.
+              p.mb-0 Se muestra un comedero con forraje, concentrados y silos. Una alimentación rica en energía aumenta el contenido graso; una deficiencia de proteína afecta el nivel proteico.
             div(titulo="Raza:")
-              p.mb-0 se ilustra con siluetas de vacas de diferentes razas (Holstein, Jersey, etc.). La raza Holstein produce leche con menor grasa y proteína que la Jersey, que es más concentrada.
+              p.mb-0 Se ilustra con siluetas de vacas de diferentes razas (Holstein, Jersey, etc.). La raza Holstein produce leche con menor grasa y proteína que la Jersey, que es más concentrada.
 
     Separador
 
@@ -203,25 +203,25 @@
           TabsA.color-acento-botones.mb-3.uno
             .tarjeta.color-secundario-10.p-4(titulo="Sabor")
               h5.mb-3 Sabor
-              p.mb-0 ligeramente dulce debido a la lactosa; puede absorber olores y sabores del ambiente (por ello debe almacenarse en lugares limpios y sin olores fuertes, como productos de limpieza o alimentos de olor penetrante). Un sabor amargo, rancio o ácido indica alteración.
+              p.mb-0 Ligeramente dulce debido a la lactosa; puede absorber olores y sabores del ambiente (por ello debe almacenarse en lugares limpios y sin olores fuertes, como productos de limpieza o alimentos de olor penetrante). Un sabor amargo, rancio o ácido indica alteración.
             .tarjeta.color-secundario-10.p-4(titulo="Aroma")
               h5.mb-3 Aroma
-              p.mb-0 suave, originado por la grasa y compuestos volátiles. La leche fresca tiene un aroma característico; olores a corral, a establo o a oxidación son defectos.
+              p.mb-0 Suave, originado por la grasa y compuestos volátiles. La leche fresca tiene un aroma característico; olores a corral, a establo o a oxidación son defectos.
             .tarjeta.color-secundario-10.p-4(titulo="Color")
               h5.mb-3 Color
-              p.mb-0 blanco amarillento por la grasa y la caseína; la leche descremada tiene un tono azulado. Un color rojizo, azulado o amarillo intenso puede indicar presencia de sangre, contaminación o alto contenido de carotenos (en animales alimentados con pasto).
+              p.mb-0 Blanco amarillento por la grasa y la caseína; la leche descremada tiene un tono azulado. Un color rojizo, azulado o amarillo intenso puede indicar presencia de sangre, contaminación o alto contenido de carotenos (en animales alimentados con pasto).
             .tarjeta.color-secundario-10.p-4(titulo="Acidez")
               h5.mb-3 Acidez
-              p.mb-0 la acidez natural (desarrollada) es de aproximadamente 0,165 % (expresada como ácido láctico) y un pH de 6,6 – 6,8. Un aumento de acidez indica fermentación bacteriana. La acidez es crucial para la coagulación: una leche muy ácida puede coagular espontáneamente al calentarse.
+              p.mb-0 La acidez natural (desarrollada) es de aproximadamente 0,165 % (expresada como ácido láctico) y un pH de 6,6 – 6,8. Un aumento de acidez indica fermentación bacteriana. La acidez es crucial para la coagulación: una leche muy ácida puede coagular espontáneamente al calentarse.
             .tarjeta.color-secundario-10.p-4(titulo="Densidad")
               h5.mb-3 Densidad
-              p.mb-0 entre 1,029 y 1,033 g/mL a 15 °C. La densidad disminuye con la adición de agua y aumenta con la adición de leche en polvo o con el descremado.
+              p.mb-0 Entre 1,029 y 1,033 g/mL a 15 °C. La densidad disminuye con la adición de agua y aumenta con la adición de leche en polvo o con el descremado.
             .tarjeta.color-secundario-10.p-4(titulo="Punto de ebullición")
               h5.mb-3 Punto de ebullición
-              p.mb-0 ligeramente superior al del agua, alrededor de 100,16 °C, debido a los sólidos disueltos.
+              p.mb-0 Ligeramente superior al del agua, alrededor de 100,16 °C, debido a los sólidos disueltos.
             .tarjeta.color-secundario-10.p-4(titulo="Punto de congelación")
               h5.mb-3 Punto de congelación
-              p.mb-0 entre -0,530 y -0,550 °C; valores más altos indican adulteración con agua. La crioscopia es una prueba fundamental en los centros de acopio.
+              p.mb-0 Entre -0,530 y -0,550 °C; valores más altos indican adulteración con agua. La crioscopia es una prueba fundamental en los centros de acopio.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_8.png', class="img-fluid")

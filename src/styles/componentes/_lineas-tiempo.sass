@@ -519,14 +519,19 @@
       align-items: center
       justify-content: center
       min-width: 40px
-      height: 40px
+      height: 55px
+      @media (min-width: $bp-min-sm)
+        height: 40px
       cursor: pointer
       transition: background-color .3s ease-in-out, color .3s ease-in-out
     &__content
       &__title
         display: flex
         align-items: center
-        height: 40px
+        height: 55px
+        @media (min-width: $bp-min-sm)
+          height: 40px
+        
         cursor: pointer
         &:hover
           font-weight: $base-bold-font-weight

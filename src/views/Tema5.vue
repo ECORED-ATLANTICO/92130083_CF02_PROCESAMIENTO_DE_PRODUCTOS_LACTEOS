@@ -197,7 +197,7 @@
           tr
             td.text-start Pasta dura.
             td.text-start Lactobacillus bulgaricus, L. helveticus.
-            td.text-start Acidificación intensa a >40 °C.
+            td.text-start Acidificación intensa a > 40 °C.
             td.text-start 0,04 %
             td.text-start 40 45 °C.
 
@@ -215,12 +215,12 @@
         p.mb-0 La coagulación puede ser ácida (por adición de ácido o fermentación) o enzimática (con cuajo). En la elaboración de la mayoría de los quesos se emplea cuajo, una enzima (rennina) que actúa sobre la caseína formando un coágulo. El mecanismo de acción consiste en que la rennina corta la micela de caseína en dos fracciones (paracaseína y macropéptido), permitiendo que la para caseína se agregue en presencia de calcio para formar un gel tridimensional.
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-out-up")
+        .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="zoom-out-up")
           figure
             img(src='@/assets/curso/tema5/img_7.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
-            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-12 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--17 
                 p.mb-3 #[strong Temperatura óptima:] 40 42 °C para máxima actividad. Sin embargo, cada tipo de queso tiene su temperatura de coagulación (por ejemplo, para quesos blandos se usan temperaturas más bajas, 32 35 °C). 
@@ -243,7 +243,7 @@
     br
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-12.col-lg-4.mb-5.mb-lg-0.pt-4.d-flex
+      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-1.order-lg-2
         .tarjeta-icono-top.tarjeta-icono-top--img-doble.color-secundario-10.h-100
           .tarjeta-icono-top__icono
             figure
@@ -251,7 +251,7 @@
           h5.mb-4 Partículas grandes
           p.mb-4 Retienen más humedad: la estructura abierta y los canales más grandes atrapan más suero dentro del coágulo, limitando el desuerado.
           p.mb-0 Queso más suave y ácido: el exceso de humedad promueve una textura más blanda y cremosa, y el suero retenido permite que las bacterias sigan fermentando, aumentando la acidez.
-      .col-12.col-lg-4.mb-5.mb-lg-0.pt-4.d-flex
+      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-2.order-lg-3
         .tarjeta-icono-top.tarjeta-icono-top--img-doble.color-secundario-10.h-100
           .tarjeta-icono-top__icono
             figure
@@ -259,7 +259,7 @@
           h5.mb-4 Partículas pequeñas
           p.mb-4 Desueran más rápido: el tamaño reducido de las partículas crea más superficie y canales estrechos, permitiendo que el suero escape más fácilmente y rápido.
           p.mb-0 Queso más firme y menos ácido: la menor retención de humedad da como resultado una textura más densa, compacta y firme, y la reducción de suero limita la fermentación posterior, produciendo un sabor más suave.
-      .col-12.col-lg-4.mb-5.mb-lg-0
+      .col-12.col-lg-8.col-xl-4.mb-5.order-3.order-lg-1
         figure
           img(src='@/assets/curso/tema5/img_13.png', class="img-fluid")
     
@@ -375,8 +375,8 @@
             h5 Figura 2.
             |    Factores clave para la maduración del queso
           figure(data-aos="flip-left").mb-5
-            img(src='@/assets/curso/tema5/img_24.svg', class="img-fluid d-none d-lg-block").mb-3
-            img(src='@/assets/curso/tema5/img_25.svg', class="img-fluid d-block d-lg-none").mb-3
+            img(src='@/assets/curso/tema5/img_24.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra los factores clave para la maduración del queso: temperatura controlada entre 10 y 15 °C, humedad relativa entre 80 y 95 %, volteos para asegurar una maduración uniforme y tratamientos superficiales como frotado, aceitado o cepillado según el tipo de queso.").mb-3
+            img(src='@/assets/curso/tema5/img_25.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra los factores clave para la maduración del queso: temperatura controlada entre 10 y 15 °C, humedad relativa entre 80 y 95 %, volteos para asegurar una maduración uniforme y tratamientos superficiales como frotado, aceitado o cepillado según el tipo de queso.").mb-3
             figcaption Nota. SENA, (2026). 
 
     .row.justify-content-center.align-items-center.mb-5

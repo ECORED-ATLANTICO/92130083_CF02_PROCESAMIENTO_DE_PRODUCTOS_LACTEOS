@@ -83,17 +83,17 @@
           tr
             td.text-start Nitrato de potasio (sal nitro).
             td.text-start Previene el crecimiento de bacterias indeseables (coliformes, clostridios) que causan hinchazón precoz y sabores anormales.
-            td.text-start 0,1 0,2 g/L.
+            td.text-start 0,1 0,2 g / L.
             td.text-start Su uso está restringido; en algunos países se ha reducido al mínimo. Es importante no exceder la dosis para evitar formación de nitrosaminas.
           tr
             td.text-start Cloruro de calcio,
             td.text-start Nivela el calcio en la leche pasteurizada, mejora la coagulación, reduce el tiempo de coagulación y favorece la salida del suero.
-            td.text-start 0,1 0,2 g/L.
+            td.text-start 0,1 0,2 g / L.
             td.text-start Se añade después de la pasteurización, diluido en agua fría. Es especialmente útil en leches pasteurizadas que han perdido parte del calcio.
           tr
             td.text-start Colorantes (achiote).
             td.text-start Uniformiza el color del queso, especialmente en quesos que tradicionalmente tienen tonalidad amarilla.
-            td.text-start <600 mg/L.
+            td.text-start <600 mg / L.
             td.text-start Debe ser de origen vegetal (achiote, annatto). Se añade antes del cuajo.
           tr
             td.text-start Cuajo (rennina).
@@ -152,12 +152,12 @@
             td.text-start Bicarbonato de sodio.
             td.text-start Arequipe.
             td.text-start Neutraliza la acidez de la leche, evita que se corte durante la concentración.
-            td.text-start Máximo 5 g/kg de leche.
+            td.text-start Máximo 5 g / kg de leche.
           tr
             td.text-start Conservantes (ácido sórbico, benzoato).
             td.text-start Yogur, kumis.
             td.text-start Prolongan la vida útil al inhibir mohos y levaduras.
-            td.text-start Máximo 1000 mg/kg (expresado como ácido sórbico).
+            td.text-start Máximo 1000 mg / kg (expresado como ácido sórbico).
           tr
             td.text-start Saborizantes.
             td.text-start Yogur, kumis.

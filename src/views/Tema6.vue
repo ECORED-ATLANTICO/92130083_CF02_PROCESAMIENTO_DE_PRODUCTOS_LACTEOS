@@ -22,8 +22,8 @@
       .mb-0 
 
       p.mb-5(data-aos="flip-left") Los quesos pueden clasificarse según diferentes criterios, como su contenido de humedad, tipo de maduración, textura, método de elaboración y características sensoriales. Esta clasificación permite comprender la diversidad de productos existentes y facilita su identificación, manejo y aplicación en la industria láctea.
-
-      .row.justify-content-center.align-items-center.mb-5 
+    .bg_img_8.mb-0
+      .row.justify-content-center.align-items-center.mb-2
         .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="flip-left")
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 3.

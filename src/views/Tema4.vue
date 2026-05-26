@@ -48,7 +48,7 @@
             .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")
-            p.mb-5 #[strong Capacidades:] desde 100 L/h hasta 20.000 L/h o más.
+            p.mb-5 #[strong Capacidades:] desde 100 L / h hasta 20.000 L / h o más.
       .row.justify-content-center.align-items-center(numero="2" titulo="Pasteurizador tipo túnel o de inmersión (para pequeña escala)")
         .col-12.col-lg-12.mb-md-0
           .row.justify-content-center.align-items-center.mb-0
@@ -230,44 +230,44 @@
       p.mb-5(data-aos="flip-left") Durante el proceso de elaboración de queso, además de los equipos principales, se requieren accesorios que facilitan las operaciones de corte, moldeado, drenado y manipulación, garantizando condiciones adecuadas de higiene y calidad del producto final.
       
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema4/img_12.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--09
                 h5.text-center.mb-3 Lira (arpa de corte)
-                p.mb-3 marco con alambres tensados de acero inoxidable para cortar la cuajada en cubos o granos uniformes. Existen manuales y automáticas.
+                p.mb-3 Marco con alambres tensados de acero inoxidable para cortar la cuajada en cubos o granos uniformes. Existen manuales y automáticas.
               .tarjeta--color-white.h-100
                 .tarjeta--10
                 h5.text-center.mb-3 Moldes
-                p.mb-3 estructuras de acero inoxidable o polipropileno, con orificios para drenaje, de diversas formas. Pueden forrarse con lienzo.
+                p.mb-3 Estructuras de acero inoxidable o polipropileno, con orificios para drenaje, de diversas formas. Pueden forrarse con lienzo.
               .tarjeta--color-white.h-100
                 .tarjeta--11
                 h5.text-center.mb-3 Lienzos (muselina)
-                p.mb-3 telas de algodón de trama abierta, resistentes al calor y lavables, para recubrir moldes, transportar cuajada y desuerar.
+                p.mb-3 Telas de algodón de trama abierta, resistentes al calor y lavables, para recubrir moldes, transportar cuajada y desuerar.
               .tarjeta--color-white.h-100
                 .tarjeta--12
                 h5.text-center.mb-3 Bombas de trasvase
-                p.mb-3 bombas sanitarias centrífugas o de lóbulos para mover leche, suero o productos sin contaminación.
+                p.mb-3 Bombas sanitarias centrífugas o de lóbulos para mover leche, suero o productos sin contaminación.
               .tarjeta--color-white.h-100
                 .tarjeta--13
                 h5.text-center.mb-3 Agitadores
-                p.mb-3 palas manuales o mecánicas para remover durante calentamiento y homogeneizar aditivos.
+                p.mb-3 Palas manuales o mecánicas para remover durante calentamiento y homogeneizar aditivos.
               .tarjeta--color-white.h-100
                 .tarjeta--14
                 h5.text-center.mb-3 Baldes y jarras graduadas
-                p.mb-3 acero inoxidable, para medir y adicionar líquidos.
+                p.mb-3 Acero inoxidable, para medir y adicionar líquidos.
               .tarjeta--color-white.h-100
                 .tarjeta--15
                 h5.text-center.mb-3 Mesa de trabajo
-                p.mb-3 superficie de acero inoxidable para moldeado y salado.
+                p.mb-3 Superficie de acero inoxidable para moldeado y salado.
               .tarjeta--color-white.h-100
                 .tarjeta--16
                 h5.text-center.mb-3 Anaqueles de maduración
-                p.mb-3 armarios con malla fina (angeo) para secado y maduración, con control de temperatura y humedad.
+                p.mb-3 Armarios con malla fina (angeo) para secado y maduración, con control de temperatura y humedad.
                    
       br
       br
