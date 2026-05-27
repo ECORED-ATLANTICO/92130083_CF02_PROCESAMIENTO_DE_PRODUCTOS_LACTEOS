@@ -179,29 +179,29 @@
             th.col-auto.col-lg-auto Temperatura de incubación
         tbody
           tr
-            td.text-start Pasta blanda y firme.
-            td.text-start Streptococcus lactis, S. cremoris.
-            td.text-start Acidificación activa.
+            td.text-start Pasta blanda y firme
+            td.text-start <em>Streptococcus lactis, S. cremoris</em>
+            td.text-start Acidificación activa
             td.text-start 2 %
-            td.text-start 30 32 °C.
+            td.text-start 30 32 °C
           tr
-            td.text-start Pasta firme y dura.
-            td.text-start S. lactis, Lactobacillus casei, Leuconostoc citrovorum.
-            td.text-start Acidificación pasiva, producción de gas y sabor.
+            td.text-start Pasta firme y dura
+            td.text-start <em>S. lactis, Lactobacillus casei, Leuconostoc citrovorum</em>
+            td.text-start Acidificación pasiva, producción de gas y sabor
             td.text-start 4 %
-            td.text-start 30 32 °C.
+            td.text-start 30 32 °C
           tr
-            td.text-start Pasta firme y dura (termófilos).
-            td.text-start Streptococcus thermophilus.
-            td.text-start Acidificación hasta pH 5,0.
+            td.text-start Pasta firme y dura (termófilos)
+            td.text-start <em>Streptococcus thermophilus</em>
+            td.text-start Acidificación hasta pH 5,0
             td.text-start 0,1 %
-            td.text-start 40 42 °C.
+            td.text-start 40 42 °C
           tr
-            td.text-start Pasta dura.
-            td.text-start Lactobacillus bulgaricus, L. helveticus.
-            td.text-start Acidificación intensa a > 40 °C.
+            td.text-start Pasta dura
+            td.text-start <em>Lactobacillus bulgaricus, L. helveticus</em>
+            td.text-start Acidificación intensa a > 40 °C
             td.text-start 0,04 %
-            td.text-start 40 45 °C.
+            td.text-start 40 45 °C
 
     p.mb-5(data-aos="flip-left") La selección del cultivo adecuado es fundamental para obtener las características deseadas. Por ejemplo, los quesos de pasta dura requieren cultivos termófilos que trabajen a temperaturas elevadas durante la cocción de la cuajada.
 
@@ -245,7 +245,7 @@
     br
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-1.order-lg-2
+      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-2.order-xl-1
         .tarjeta-icono-top.tarjeta-icono-top--img-doble.color-secundario-10.h-100
           .tarjeta-icono-top__icono
             figure
@@ -253,7 +253,7 @@
           h5.mb-4 Partículas grandes
           p.mb-4 Retienen más humedad: la estructura abierta y los canales más grandes atrapan más suero dentro del coágulo, limitando el desuerado.
           p.mb-0 Queso más suave y ácido: el exceso de humedad promueve una textura más blanda y cremosa, y el suero retenido permite que las bacterias sigan fermentando, aumentando la acidez.
-      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-2.order-lg-3
+      .col-12.col-lg-6.col-xl-4.mb-5.mb-lg-0.pt-4.d-flex.order-3.order-xl-2
         .tarjeta-icono-top.tarjeta-icono-top--img-doble.color-secundario-10.h-100
           .tarjeta-icono-top__icono
             figure
@@ -261,7 +261,7 @@
           h5.mb-4 Partículas pequeñas
           p.mb-4 Desueran más rápido: el tamaño reducido de las partículas crea más superficie y canales estrechos, permitiendo que el suero escape más fácilmente y rápido.
           p.mb-0 Queso más firme y menos ácido: la menor retención de humedad da como resultado una textura más densa, compacta y firme, y la reducción de suero limita la fermentación posterior, produciendo un sabor más suave.
-      .col-12.col-lg-8.col-xl-4.mb-5.order-3.order-lg-1
+      .col-12.col-lg-8.col-xl-4.mb-5.order-1.order-xl-3
         figure
           img(src='@/assets/curso/tema5/img_13.png', class="img-fluid")
     

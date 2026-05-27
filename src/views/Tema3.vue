@@ -46,7 +46,7 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-10.p-4.rounded-3.mb-3(data-aos="zoom-in-right")
           p.mb-0 Esta normativa se complementa con la Resolución 2674 de 2013 y las disposiciones emitidas por el INVIMA, las cuales regulan las condiciones sanitarias y de inocuidad en la producción de alimentos en Colombia.
-        p.mb-3(data-aos="zoom-in-right") Adicionalmente, referentes internacionales como el Codex Alimentarius y las normas ISO sirven como guía para estandarizar criterios de calidad y seguridad alimentaria en el sector lácteo.
+        p.mb-3(data-aos="zoom-in-right") Adicionalmente, referentes internacionales como el <em>Codex Alimentarius</em> y las normas ISO sirven como guía para estandarizar criterios de calidad y seguridad alimentaria en el sector lácteo.
         .cajon.color-primario.p-4(data-aos="zoom-in-right")
           p.mb-0 Es importante que el aprendiz comprenda que el uso de aditivos no debe emplearse para ocultar defectos en la materia prima ni para compensar deficiencias en las prácticas de fabricación, sino que debe responder a necesidades tecnológicas específicas dentro del proceso productivo.
 
@@ -82,34 +82,34 @@
             th.col-auto.col-lg-auto Observaciones
         tbody
           tr
-            td.text-start Nitrato de potasio (sal nitro).
+            td.text-start Nitrato de potasio (sal nitro)
             td.text-start Previene el crecimiento de bacterias indeseables (coliformes, clostridios) que causan hinchazón precoz y sabores anormales.
-            td.text-start 0,1 0,2 g / L.
+            td.text-start 0,1 0,2 g / L
             td.text-start Su uso está restringido; en algunos países se ha reducido al mínimo. Es importante no exceder la dosis para evitar formación de nitrosaminas.
           tr
-            td.text-start Cloruro de calcio,
+            td.text-start Cloruro de calcio
             td.text-start Nivela el calcio en la leche pasteurizada, mejora la coagulación, reduce el tiempo de coagulación y favorece la salida del suero.
-            td.text-start 0,1 0,2 g / L.
+            td.text-start 0,1 0,2 g / L
             td.text-start Se añade después de la pasteurización, diluido en agua fría. Es especialmente útil en leches pasteurizadas que han perdido parte del calcio.
           tr
-            td.text-start Colorantes (achiote).
+            td.text-start Colorantes (achiote)
             td.text-start Uniformiza el color del queso, especialmente en quesos que tradicionalmente tienen tonalidad amarilla.
-            td.text-start <600 mg / L.
+            td.text-start <600 mg / L
             td.text-start Debe ser de origen vegetal (achiote, annatto). Se añade antes del cuajo.
           tr
-            td.text-start Cuajo (rennina).
+            td.text-start Cuajo (rennina)
             td.text-start Coagula la caseína formando la cuajada. Puede ser de origen animal, microbiano o vegetal.
-            td.text-start Variable según concentración (ej. 20 40 mL de cuajo 10000 por 100 L).
+            td.text-start Variable según concentración (ej. 20 40 mL de cuajo 10000 por 100 L)
             td.text-start Se diluye en agua fría antes de agregar. La dosis se ajusta según la temperatura y el tipo de queso.
           tr
-            td.text-start Sal (cloruro de sodio).
+            td.text-start Sal (cloruro de sodio)
             td.text-start Aporta sabor, controla la fermentación, favorece el desuerado y contribuye a la conservación.
-            td.text-start 1 2 % sobre la cuajada.
+            td.text-start 1 2 % sobre la cuajada
             td.text-start Puede añadirse en la leche, en la cuajada o en salmuera. En salmuera se usa una concentración del 23 %.
           tr
-            td.text-start Cultivos lácticos.
+            td.text-start Cultivos lácticos
             td.text-start Microorganismos que acidifican la leche, desarrollan aroma y textura.
-            td.text-start 0,05 5 % según tipo.
+            td.text-start 0,05 5 % según tipo
             td.text-start Difieren según el tipo de queso (mesófilos o termófilos). Se añaden antes del cuajo.
 
     Separador
@@ -126,7 +126,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p.mb-0 Nota. Adaptado de Resolución 2310 de 1986 y Codex Alimentarius.
+          p.mb-0 Nota. Adaptado de Resolución 2310 de 1986 y <em>Codex Alimentarius</em>.
         thead
           tr
             th.col-auto.col-lg-2 Aditivo
@@ -135,33 +135,33 @@
             th.col-auto.col-lg-auto Límite máximo
         tbody
           tr
-            td.text-start Leche en polvo.
-            td.text-start Yogur.
+            td.text-start Leche en polvo
+            td.text-start Yogur
             td.text-start Aumenta el contenido de sólidos no grasos, mejora la viscosidad y reduce la sinéresis.
             td.text-start Hasta 5 % en yogur natural; hasta 10 % en yogur con fruta.
           tr
-            td.text-start Azúcar (sacarosa).
-            td.text-start Yogur, arequipe.
+            td.text-start Azúcar (sacarosa)
+            td.text-start Yogur, arequipe
             td.text-start Endulza, mejora el sabor; en arequipe es esencial para la concentración y la textura.
             td.text-start Variable según receta (20 30 % en arequipe).
           tr
-            td.text-start Estabilizantes (goma xantan, carragenina, pectina).
-            td.text-start Yogur.
+            td.text-start Estabilizantes (goma xantan, carragenina, pectina)
+            td.text-start Yogur
             td.text-start Evitan la sinéresis, mejoran la textura y la sensación en boca.
-            td.text-start Según autorización (Codex Alimentarius).
+            td.text-start Según autorización (<em>Codex Alimentarius</em>).
           tr
-            td.text-start Bicarbonato de sodio.
-            td.text-start Arequipe.
+            td.text-start Bicarbonato de sodio
+            td.text-start Arequipe
             td.text-start Neutraliza la acidez de la leche, evita que se corte durante la concentración.
             td.text-start Máximo 5 g / kg de leche.
           tr
-            td.text-start Conservantes (ácido sórbico, benzoato).
-            td.text-start Yogur, kumis.
+            td.text-start Conservantes (ácido sórbico, benzoato)
+            td.text-start Yogur, kumis
             td.text-start Prolongan la vida útil al inhibir mohos y levaduras.
             td.text-start Máximo 1000 mg / kg (expresado como ácido sórbico).
           tr
-            td.text-start Saborizantes.
-            td.text-start Yogur, kumis.
+            td.text-start Saborizantes
+            td.text-start Yogur, kumis
             td.text-start Aportan aromas a frutas, vainilla, etc.
             td.text-start Cantidad mínima necesaria, según autorización.
 

@@ -130,32 +130,32 @@
             th.col-auto.col-lg-auto Requisito
         tbody
           tr
-            td.text-start Temperatura de recepción.
-            td.text-start ≤ 8 °C.
+            td.text-start Temperatura de recepción
+            td.text-start ≤ 8 °C
           tr
-            td.text-start Densidad a 15 °C.
-            td.text-start 1,029 – 1,033 g / mL.
+            td.text-start Densidad a 15 °C
+            td.text-start 1,029 – 1,033 g / mL
           tr
-            td.text-start Acidez (expresada como ácido láctico).
-            td.text-start 0,13 – 0,17 % (13 – 17 °Dornic).
+            td.text-start Acidez (expresada como ácido láctico)
+            td.text-start 0,13 – 0,17 % (13 – 17 °Dornic)
           tr
-            td.text-start Crioscopia.
-            td.text-start -0,530 a -0,550 °C.
+            td.text-start Crioscopia
+            td.text-start -0,530 a -0,550 °C
           tr
-            td.text-start Prueba de alcohol (68 %).
-            td.text-start Negativa (sin grumos).
+            td.text-start Prueba de alcohol (68 %)
+            td.text-start Negativa (sin grumos)
           tr
-            td.text-start Recuento de microorganismos mesófilos.
-            td.text-start ≤ 500.000 UFC / mL (categoría A).
+            td.text-start Recuento de microorganismos mesófilos
+            td.text-start ≤ 500.000 UFC / mL (categoría A)
           tr
-            td.text-start Recuento de células somáticas.
-            td.text-start ≤ 400.000 células / mL.
+            td.text-start Recuento de células somáticas
+            td.text-start ≤ 400.000 células / mL
           tr
-            td.text-start Ausencia de antibióticos.
-            td.text-start Negativa.
+            td.text-start Ausencia de antibióticos
+            td.text-start Negativa
           tr
-            td.text-start Ausencia de conservantes (formol, peróxido).
-            td.text-start Negativa.
+            td.text-start Ausencia de conservantes (formol, peróxido)
+            td.text-start Negativa
 
     #t_2_3.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.3 Parámetros microbiológicos y fisicoquímicos
@@ -175,7 +175,7 @@
         p.mb-0 Son indicadores de contaminación ambiental o fecal. Su presencia refleja deficiencias en las prácticas higiénicas y en la manipulación de la leche.
       .pt-4.pt-md-5.pb-4.p-5(titulo="Ausencia de patógenos" :icono="require('@/assets/curso/tema2/img_20.svg')")
         h5.mb-4 Ausencia de patógenos
-        p.mb-0 Se verifica la no presencia de microorganismos como Salmonella y Listeria monocytogenes, los cuales representan un riesgo para la salud pública.
+        p.mb-0 Se verifica la no presencia de microorganismos como <em>Salmonella</em> y <em>Listeria monocytogenes</em>, los cuales representan un riesgo para la salud pública.
       .pt-4.pt-md-5.pb-4.p-5(titulo="Determinación de composición" :icono="require('@/assets/curso/tema2/img_21.svg')")
         h5.mb-4 Determinación de composición
         p.mb-0 Incluye análisis de proteína (método Kjeldahl), grasa (método Gerber), extracto seco y pH. Estos parámetros permiten evaluar el valor nutricional de la leche y su aptitud para la elaboración de productos como queso, yogur y otros derivados lácteos.

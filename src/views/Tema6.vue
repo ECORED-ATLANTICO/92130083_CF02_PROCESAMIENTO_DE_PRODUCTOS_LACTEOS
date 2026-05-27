@@ -140,68 +140,68 @@
                     th.col-auto.col-lg-auto Detalles técnicos
                 tbody
                   tr
-                    td.text-start.bg-table-01 Recepción de leche.
+                    td.text-start.bg-table-01 Recepción de leche
                     td.text-start.bg-table-01 Grasa 3,3 – 3,5 %.
-                    td.text-start.bg-table-01 Leche fresca, acidez <18 °D.
+                    td.text-start.bg-table-01 Leche fresca, acidez < 18 °D
                   tr
-                    td.text-start.bg-table-01 Estandarización.
-                    td.text-start.bg-table-01 Ajustar a 3 % de grasa.
+                    td.text-start.bg-table-01 Estandarización
+                    td.text-start.bg-table-01 Ajustar a 3 % de grasa
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Pasteurización.
-                    td.text-start.bg-table-01 63 – 65 °C durante 20 segundos.
+                    td.text-start.bg-table-01 Pasteurización
+                    td.text-start.bg-table-01 63 – 65 °C durante 20 segundos
                     td.text-start.bg-table-01 Pasteurización rápida (HTST).
                   tr
-                    td.text-start.bg-table-01 Enfriamiento.
-                    td.text-start.bg-table-01 32 – 38 °C.
+                    td.text-start.bg-table-01 Enfriamiento
+                    td.text-start.bg-table-01 32 – 38 °C
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Adición de cloruro de calcio.
-                    td.text-start.bg-table-01 0,1 – 0,2 g/L; reposo 10 20 minutos.
+                    td.text-start.bg-table-01 Adición de cloruro de calcio
+                    td.text-start.bg-table-01 0,1 – 0,2 g/L; reposo 10 20 minutos
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Agitación
-                    td.text-start.bg-table-01 Durante 5 minutos.
+                    td.text-start.bg-table-01 Durante 5 minutos
                     td.text-start.bg-table-01  –
                   tr
-                    td.text-start.bg-table-01 Adición de nitrato de potasio.
-                    td.text-start.bg-table-01 0,1 – 0,2 g/L.
-                    td.text-start.bg-table-01 Controla hinchazón precoz.
+                    td.text-start.bg-table-01 Adición de nitrato de potasio
+                    td.text-start.bg-table-01 0,1 – 0,2 g / L
+                    td.text-start.bg-table-01 Controla hinchazón precoz
                   tr
-                    td.text-start.bg-table-01 Adición de cuajo.
-                    td.text-start.bg-table-01 1 pastilla para 40 litros a 35 °C.
+                    td.text-start.bg-table-01 Adición de cuajo
+                    td.text-start.bg-table-01 1 pastilla para 40 litros a 35 °C
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Coagulación.
-                    td.text-start.bg-table-01 30 – 40 minutos.
+                    td.text-start.bg-table-01 Coagulación
+                    td.text-start.bg-table-01 30 – 40 minutos
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Corte.
-                    td.text-start.bg-table-01 Grano de 1 cm.
+                    td.text-start.bg-table-01 Corte
+                    td.text-start.bg-table-01 Grano de 1 cm
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Desuerado.
-                    td.text-start.bg-table-01 10 – 20 minutos.
+                    td.text-start.bg-table-01 Desuerado
+                    td.text-start.bg-table-01 10 – 20 minutos
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Amasado y salado.
-                    td.text-start.bg-table-01 1 – 2 % de sal sobre la cuajada.
+                    td.text-start.bg-table-01 Amasado y salado
+                    td.text-start.bg-table-01 1 – 2 % de sal sobre la cuajada
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Moldeado.
-                    td.text-start.bg-table-01 Moldes esterilizados.
+                    td.text-start.bg-table-01 Moldeado
+                    td.text-start.bg-table-01 Moldes esterilizados
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Prensado.
+                    td.text-start.bg-table-01 Prensado
                     td.text-start.bg-table-01 –
                     td.text-start.bg-table-01 –
                   tr
-                    td.text-start.bg-table-01 Secado.
-                    td.text-start.bg-table-01 Envolver en lienzos limpios y colocar en mesa inclinada.
-                    td.text-start.bg-table-01 Eliminar suero residual.
+                    td.text-start.bg-table-01 Secado
+                    td.text-start.bg-table-01 Envolver en lienzos limpios y colocar en mesa inclinada
+                    td.text-start.bg-table-01 Eliminar suero residual
                   tr
-                    td.text-start.bg-table-01 Almacenamiento.
-                    td.text-start.bg-table-01 Refrigeración.
+                    td.text-start.bg-table-01 Almacenamiento
+                    td.text-start.bg-table-01 Refrigeración
                     td.text-start.bg-table-01 –
           div(titulo="Queso doble crema")
             p.mb-4 Queso de textura untuosa, de alto contenido graso. Se elabora mezclando leche ácida con leche fresca, lo que le da una acidez suave y una textura cremosa.
@@ -345,11 +345,11 @@
     .row.justify-content-center.align-items-start.mb-4
       .col-12.col-lg-8.order-2.order-lg-1.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
-          div(titulo="Queso Camembert")
-            p.mb-4 Queso de pasta blanda con moho superficial (Penicillium camemberti). Se caracteriza por su textura cremosa y sabor a hongos. La maduración es relativamente corta (4 6 semanas).
+          div(titulo="Queso <em>Camembert</em>")
+            p.mb-4 Queso de pasta blanda con moho superficial (<em>Penicillium camemberti</em>). Se caracteriza por su textura cremosa y sabor a hongos. La maduración es relativamente corta (4 6 semanas).
             .titulo-sexto.color-acento-contenido
               h5 Tabla 12.
-              |  Especificaciones para la elaboración de queso Camembert
+              |  Especificaciones para la elaboración de queso <em>Camembert</em>
             .tabla-a.mb-5
               table
                 caption 
@@ -414,7 +414,7 @@
                     td.text-start.bg-table-01 Para uniformidad.
                   tr
                     td.text-start.bg-table-01 Siembra.
-                    td.text-start.bg-table-01 Asperjar esporas de Penicillium camemberti en agua sobre la superficie; voltear y repetir.
+                    td.text-start.bg-table-01 Asperjar esporas de <em>Penicillium camemberti</em> en agua sobre la superficie; voltear y repetir.
                     td.text-start.bg-table-01 Si no se añadieron a la leche.
                   tr
                     td.text-start.bg-table-01 Salado.
@@ -432,11 +432,11 @@
                     td.text-start.bg-table-01 Almacenamiento.
                     td.text-start.bg-table-01 5 °C..
                     td.text-start.bg-table-01 –
-          div(titulo="Queso Cheddar")
+          div(titulo="Queso <em>Cheddar</em>")
             p.mb-4 Queso de origen inglés, de pasta firme con pequeñas aberturas (ojos). Su proceso incluye una etapa de “cheddarización” (apilado de bloques) que desarrolla su textura característica.
             .titulo-sexto.color-acento-contenido
               h5 Tabla 13.
-              |  Especificaciones para la elaboración de queso Cheddar
+              |  Especificaciones para la elaboración de queso <em>Cheddar</em>
             .tabla-a.mb-5
               table
                 caption 
@@ -519,11 +519,11 @@
                     td.text-start.bg-table-01 Maduración.
                     td.text-start.bg-table-01 En parafina, a 4 °C durante 9 12 meses.
                     td.text-start.bg-table-01 Maduración fría prolongada.
-          div(titulo="Queso Gruyere")
+          div(titulo="Queso <em>Gruyere</em>")
             p.mb-4 Queso suizo de pasta dura, caracterizado por sus ojos (formados por gas producido por Propionibacterium shermanii) y su sabor a nuez. La maduración es larga y se realiza en dos fases de temperatura.
             .titulo-sexto.color-acento-contenido
               h5 Tabla 14.
-              |  Especificaciones para la elaboración de queso Gruyere 
+              |  Especificaciones para la elaboración de queso <em>Gruyere</em>
             .tabla-a.mb-5
               table
                 caption 

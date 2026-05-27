@@ -3,7 +3,7 @@ export default {
     Name:
       'Composición de la leche, aditivos y procesos de elaboración de quesos',
     Description:
-      'Este componente formativo aborda los fundamentos de la composición fisicoquímica de la leche, su importancia como materia prima en la industria láctea, los requisitos de calidad exigidos por la normatividad colombiana, los aditivos autorizados y su función, y los procesos tecnológicos para la elaboración de diferentes tipos de queso. Se describen las etapas comunes del proceso quesero y las particularidades de variedades como queso blanco, campesino, Camembert, Cheddar, Gruyere, doble crema, crema, parmesano y mozzarella.',
+      'Este componente formativo aborda los fundamentos de la composición fisicoquímica de la leche, su importancia como materia prima en la industria láctea, los requisitos de calidad exigidos por la normatividad colombiana, los aditivos autorizados y su función, y los procesos tecnológicos para la elaboración de diferentes tipos de queso. Se describen las etapas comunes del proceso quesero y las particularidades de variedades como queso blanco, campesino, <em>Camembert, Cheddar, Gruyere,< /em> doble crema, crema, parmesano y mozzarella.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -238,7 +238,7 @@ export default {
     {
       termino: 'Cheddarización',
       significado:
-        'Proceso específico en la elaboración del queso cheddar que consiste en apilar bloques de cuajada y voltearlos periódicamente para desarrollar textura y sabor.',
+        'Proceso específico en la elaboración del queso <em>cheddar</em> que consiste en apilar bloques de cuajada y voltearlos periódicamente para desarrollar textura y sabor.',
     },
     {
       termino: 'Coagulación',

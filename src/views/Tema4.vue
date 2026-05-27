@@ -26,11 +26,22 @@
                 ul.lista-ul.lista-ul--check.mb-0
                   li
                     i.lista-ul__vineta-check.mb-2
-                    span #[strong HTST (High Temperature Short Time):]  72–75 °C durante 15–20 segundos. Es el más común para leche de consumo y quesería.
+                    span
+                      strong
+                        | HTST (
+                        em High Temperature Short Time
+                        | ):
+                      |  72 – 75 °C durante 15 – 20 segundos. Es el más común para leche de consumo y quesería.
+
                   li.mb-0
                     i.lista-ul__vineta-check.mb-2
-                    span #[strong UHT (Ultra High Temperature):]  135–150 °C durante 1–4 segundos. Produce leche estable a temperatura ambiente.
-              br
+                    span
+                      strong
+                        | UHT (
+                        em Ultra High Temperature
+                        | ):
+                      |  135 – 150 °C durante 1 – 4 segundos. Produce leche estable a temperatura ambiente.
+                br
               br
               .row.justify-content-center.align-items-stretch.mb-0
                 .col-12.col-lg-6.mb-5.mb-lg-0.pt-4.d-flex
@@ -48,7 +59,9 @@
             .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")
-            p.mb-5 #[strong Capacidades:] desde 100 L / h hasta 20.000 L / h o más.
+
+          p.mb-5 #[strong Capacidades:] desde 100 L / h hasta 20.000 L / h o más.
+            
       .row.justify-content-center.align-items-center(numero="2" titulo="Pasteurizador tipo túnel o de inmersión (para pequeña escala)")
         .col-12.col-lg-12.mb-md-0
           .row.justify-content-center.align-items-center.mb-0
@@ -96,7 +109,7 @@
                     .tarjeta-icono-top__icono
                       figure
                         img(src='@/assets/curso/tema4/img_2.svg' alt='')
-                    p.mb-0  #[strong Parámetros:] la presión varía según el tipo de queso: quesos blandos (0,5–1 kg/cm²), quesos semiduros (1–2 kg/cm²), quesos duros (2–5 kg/cm²). El tiempo de prensado puede ser desde 30 minutos hasta 20 horas.
+                    p.mb-0  #[strong Parámetros:] la presión varía según el tipo de queso: quesos blandos (0,5 – 1 kg/cm²), quesos semiduros (1–2 kg/cm²), quesos duros (2–5 kg/cm²). El tiempo de prensado puede ser desde 30 minutos hasta 20 horas.
                 .col-12.col-lg-6.mb-5.mb-lg-0.pt-4.d-flex
                   .tarjeta-icono-top.color-secundario-10.h-100
                     .tarjeta-icono-top__icono
@@ -149,7 +162,7 @@
         .col-12.col-lg-12.mb-md-0
           .cajon.color-primario.p-4.mb-4
             p.mb-0 #[strong Función:] separar la nata (crema) de la leche entera por fuerza centrífuga. Permite obtener leche descremada y crema con diferentes contenidos de grasa.
-          p.mb-5 #[strong Principio:] la leche se introduce en un tambor que gira a alta velocidad (6000–10000 rpm). La crema, al ser menos densa, se concentra en el centro y es descargada por una salida, mientras que la leche descremada sale por otra.
+          p.mb-5 #[strong Principio:] la leche se introduce en un tambor que gira a alta velocidad (6000 – 10000 rpm). La crema, al ser menos densa, se concentra en el centro y es descargada por una salida, mientras que la leche descremada sale por otra.
           .row.justify-content-center.align-items-center.mb-4
             .col-12.col-lg-8.order-2.order-lg-1.mb-0
               .tarjeta.color-acento-contenido-5.p-4.rounded-3.mb-5

@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar la comprensión de los conceptos clave del componente (composición de la leche, calidad, aditivos, proceso de queso y variedades) mediante un cuestionario de verdadero/falso con retroalimentación breve.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
@@ -323,7 +323,7 @@ export default {
         {
           id: 14,
           texto:
-            'El queso Camembert se madura con moho <em>Penicillium camemberti</em> en su superficie.',
+            'El queso <em>Camembert</em> se madura con moho <em>Penicillium camemberti</em> en su superficie.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -346,7 +346,7 @@ export default {
         {
           id: 15,
           texto:
-            'El queso Cheddar tiene una etapa de cheddarización (apilado de bloques).',
+            'El queso <em>Cheddar</em> tiene una etapa de cheddarización (apilado de bloques).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -362,13 +362,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Así es. Esta etapa desarrolla la textura y el sabor típico del Cheddar.',
+            'Así es. Esta etapa desarrolla la textura y el sabor típico del <em>Cheddar</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: 'El queso Gruyere no forma ojos durante la maduración.',
+          texto:
+            'El queso <em>Gruyere</em> no forma ojos durante la maduración.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -397,12 +398,12 @@ export default {
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:

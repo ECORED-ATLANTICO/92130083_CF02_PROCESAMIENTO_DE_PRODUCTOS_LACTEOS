@@ -56,32 +56,32 @@
             th.col-auto.col-lg-auto Características y función
         tbody
           tr
-            td.text-start Agua.
+            td.text-start Agua
             td.text-start 87,5 %
             td.text-start Disuelve los demás componentes; esencial para la formación de la estructura coloidal.
           tr
-            td.text-start Grasa.
+            td.text-start Grasa
             td.text-start 3,2 – 4,2 %
             td.text-start Presente en glóbulos de diferentes tamaños; aporta energía, vitaminas liposolubles (A, D, E, K) y contribuye al sabor y textura.
           tr
-            td.text-start Proteínas.
+            td.text-start Proteínas
             td.text-start 3,0 – 4,0 %
             td.text-start Incluye caseína (≈80 %) y seroproteínas (≈20 %). La caseína forma la cuajada en la elaboración de queso.
           tr
-            td.text-start Lactosa.
+            td.text-start Lactosa
             td.text-start 4,7 – 5,2 %
             td.text-start Principal carbohidrato; confiere el sabor ligeramente dulce; es fermentada por bacterias lácticas para producir ácido láctico.
           tr
-            td.text-start Vitaminas.
-            td.text-start Trazas.
+            td.text-start Vitaminas
+            td.text-start Trazas
             td.text-start Liposolubles (A, D, E, K) e hidrosolubles (B1, B2, B12, C, etc.).
           tr
-            td.text-start Sales minerales.
+            td.text-start Sales minerales
             td.text-start 0,6 – 1,0 %
             td.text-start Cloruros, fosfatos, sulfatos, carbonatos y citratos; calcio, sodio, potasio, magnesio. Importantes para la coagulación.
           tr
-            td.text-start Enzimas.
-            td.text-start Trazas.
+            td.text-start Enzimas
+            td.text-start Trazas
             td.text-start Fosfatasa, peroxidasa, lipasa, etc. Se inactivan con el calor (pasteurización).
   
     .bg_img_9.mb-0
@@ -110,42 +110,42 @@
             th.col-auto.col-lg-auto Sólidos totales
         tbody
           tr
-            td.text-start Holstein.
+            td.text-start Holstein
             td.text-start 3,54
             td.text-start 3,29
             td.text-start 4,68
             td.text-start 0,72
             td.text-start 12,16
           tr
-            td.text-start Ayrshire.
+            td.text-start Ayrshire
             td.text-start 3,95
             td.text-start 3,48
             td.text-start 4,60
             td.text-start 0,72
             td.text-start 12,77
           tr
-            td.text-start Guernsey.
+            td.text-start Guernsey
             td.text-start 4,72
             td.text-start 3,75
             td.text-start 4,71
             td.text-start 0,76
             td.text-start 14,04
           tr
-            td.text-start Jersey.
+            td.text-start Jersey
             td.text-start 5,13
             td.text-start 3,98
             td.text-start 4,83
             td.text-start 0,77
             td.text-start 14,42
           tr
-            td.text-start Pardo Suizo.
+            td.text-start Pardo Suizo
             td.text-start 3,99
             td.text-start 3,64
             td.text-start 4,94
             td.text-start 0,74
             td.text-start 13,08
           tr
-            td.text-start Normando.
+            td.text-start Normando
             td.text-start 4,50
             td.text-start 3,40
             td.text-start 4,75
