@@ -15,7 +15,7 @@
 
     Separador
 
-    .bg_img_11.mb-0
+    .bg_img_6.mb-0
 
       #t_6_1.titulo-segundo.color-acento-contenido
         .h2(data-aos="fade-right") 6.1 Clasificación general

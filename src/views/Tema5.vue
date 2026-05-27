@@ -24,8 +24,8 @@
         img(src='@/assets/curso/tema5/img_4.png', class="img-fluid d-block d-lg-none", alt="Infografía educativa titulada “Las 9 etapas del queso”. Explica el proceso básico de elaboración del queso desde la leche hasta su envasado. Incluye nueve etapas numeradas: estandarización, inoculación (siembra), coagulación, corte, desuerado, moldeado, salado, maduración y envasado. Cada etapa contiene un dibujo representativo del proceso y una breve descripción técnica. En la parte inferior aparece una nota de referencia del SENA (2026) y símbolos relacionados con higiene y control de calidad").mb-3
         figcaption Nota. SENA, (2026). 
     
-    .bg_img_9.mb-0
-      .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
+    .bg_img_11.mb-0
+      .cajon.p-4(data-aos="zoom-in-right")
         p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
@@ -273,8 +273,6 @@
       .h2(data-aos="fade-right") 5.3 Desuerado, moldeado y salado
     .mb-0 
 
-    .bg_img_9.mb-0
-
       p.mb-5(data-aos="flip-left") El desuerado es la etapa del proceso en la cual se separa el suero de la cuajada, permitiendo la formación de una estructura más firme y definiendo características clave como la humedad, textura y rendimiento del queso. Esta operación influye directamente en la calidad final del producto, por lo que debe controlarse cuidadosamente mediante diferentes acciones tecnológicas. Se favorece mediante:
       
       .row.justify-content-center.mb-5
@@ -369,7 +367,7 @@
 
     p.mb-5(data-aos="flip-left") La maduración es el proceso mediante el cual el queso desarrolla sus características organolépticas (sabor, aroma, textura) gracias a la acción de enzimas y microorganismos. Puede durar desde unos días (quesos frescos) hasta varios años (quesos duros). Durante este periodo se controlan temperatura y humedad, y se realizan volteos y frotados de la superficie. Factores clave:
 
-    .bg_img_10.mb-0
+    .bg_img_6.mb-0
 
       .row.justify-content-center.align-items-center.mb-5 
         .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="flip-left")

@@ -173,17 +173,17 @@
             img(src='@/assets/curso/tema1/img_6.png', class="img-fluid")
         .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
           AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
-            div(titulo="Estación del año:")
+            div(titulo="Estación del año")
               p.mb-0 Se ilustran cambios climáticos (sol, lluvia). En climas extremos puede haber variaciones en la producción y composición.
-            div(titulo="Salud:")
+            div(titulo="Salud")
               p.mb-0 Se indica un signo de mastitis (inflamación de la ubre) con una representación de células somáticas elevadas. Las enfermedades alteran drásticamente la composición y calidad.
-            div(titulo="Edad del animal:")
+            div(titulo="Edad del animal")
               p.mb-0 Se muestra una vaca joven y una adulta. Las vacas jóvenes producen leche con menor contenido graso; las de mayor edad pueden aumentar la grasa hasta cierto límite.
-            div(titulo="Estado de lactancia:")
+            div(titulo="Estado de lactancia")
               p.mb-0 Se representa una línea de tiempo con tres fases: calostro (primera semana, alta proteína y anticuerpos), leche madura (estable) y leche tardía (mayor grasa).
-            div(titulo="Alimentación:")
+            div(titulo="Alimentación")
               p.mb-0 Se muestra un comedero con forraje, concentrados y silos. Una alimentación rica en energía aumenta el contenido graso; una deficiencia de proteína afecta el nivel proteico.
-            div(titulo="Raza:")
+            div(titulo="Raza")
               p.mb-0 Se ilustra con siluetas de vacas de diferentes razas (Holstein, Jersey, etc.). La raza Holstein produce leche con menor grasa y proteína que la Jersey, que es más concentrada.
 
     Separador
