@@ -24,9 +24,9 @@
         img(src='@/assets/curso/tema5/img_4.png', class="img-fluid d-block d-lg-none", alt="Infografía educativa titulada “Las 9 etapas del queso”. Explica el proceso básico de elaboración del queso desde la leche hasta su envasado. Incluye nueve etapas numeradas: estandarización, inoculación (siembra), coagulación, corte, desuerado, moldeado, salado, maduración y envasado. Cada etapa contiene un dibujo representativo del proceso y una breve descripción técnica. En la parte inferior aparece una nota de referencia del SENA (2026) y símbolos relacionados con higiene y control de calidad").mb-3
         figcaption Nota. SENA, (2026). 
     
-    .bg_img_11.mb-0
-      .cajon.p-4(data-aos="zoom-in-right")
-        p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
+    
+    .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
+      p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-12.col-lg-8
