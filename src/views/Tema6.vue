@@ -42,12 +42,11 @@
     p.mb-5(data-aos="flip-left") Los quesos frescos son aquellos que no presentan un proceso de maduración o este es muy corto, por lo que se consumen poco tiempo después de su elaboración. Se caracterizan por su alto contenido de humedad, textura blanda o semiblanda y sabor suave, ligeramente ácido.
 
     .row.justify-content-center.align-items-start.mb-4
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.mb-3(data-aos="flip-left")
         figure
-          img(src='@/assets/curso/tema6/img_5.png',  class="img-fluid d-none d-lg-block")
-          img(src='@/assets/curso/tema6/img_5_1.png',  class="img-fluid d-block d-lg-none")
+          img(src='@/assets/curso/tema6/img_5.png')
 
-      .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
+      .col-12.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Queso blanco (fresco)")
             p.mb-4 Es un queso de alta humedad, sin maduración, de consumo inmediato o corta refrigeración. Se caracteriza por su sabor suave y textura blanda. Es muy popular en Colombia para acompañar arepas, empanadas o consumir solo.
@@ -343,7 +342,11 @@
     p.mb-5(data-aos="flip-left") Los quesos madurados son aquellos que, después de su elaboración, pasan por un proceso de maduración o afinado durante un periodo determinado, en el cual se desarrollan sus características de sabor, aroma, textura y apariencia. Este proceso puede durar desde semanas hasta varios meses o incluso años, dependiendo del tipo de queso.
 
     .row.justify-content-center.align-items-start.mb-4
-      .col-12.col-lg-8.order-2.order-lg-1.mb-0(data-aos="zoom-in-right")
+      .col-12.mb-3(data-aos="flip-left")
+        figure
+          img(src='@/assets/curso/tema6/img_6.png')
+
+      .col-12.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Queso <em>Camembert</em>")
             p.mb-4 Queso de pasta blanda con moho superficial (<em>Penicillium camemberti</em>). Se caracteriza por su textura cremosa y sabor a hongos. La maduración es relativamente corta (4 6 semanas).
@@ -661,10 +664,7 @@
                     td.text-start.bg-table-01 Maduración.
                     td.text-start.bg-table-01 15 °C, voltear y frotar con aceite vegetal cada semana; al perder 15 % del peso, encerar o envasar al vacío; maduración total hasta 2 años.
                     td.text-start.bg-table-01 –
-      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
-        figure
-          img(src='@/assets/curso/tema6/img_6.png',  class="img-fluid d-none d-lg-block")
-          img(src='@/assets/curso/tema6/img_6_1.png',  class="img-fluid d-block d-lg-none")
+      
 
     Separador
 
@@ -675,7 +675,11 @@
     p.mb-5(data-aos="flip-left") Los quesos hilados y especiales comprenden un grupo de productos lácteos que se caracterizan por técnicas de elaboración particulares que les confieren propiedades únicas en textura, sabor y apariencia.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.order-2.order-lg-1.mb-0
+      .col-12.mb-3(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema6/img_7.png')
+      
+      .col-12.order-2.order-lg-1.mb-0
         .tarjeta.color-acento-contenido-10.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           h5.mb-4 Queso Mozzarella
           p.mb-4 Queso de pasta hilada, originario de Italia, con alta humedad y textura elástica. Se consume fresco o en pizzas. Su proceso incluye una etapa de hilado en agua caliente.
@@ -764,10 +768,7 @@
                   td.text-start.bg-table-01 Almacenamiento..
                   td.text-start.bg-table-01 Refrigeración a 4 °C
                   td.text-start.bg-table-01 –
-      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
-        figure
-          img(src='@/assets/curso/tema6/img_7.png',  class="img-fluid d-none d-lg-block")
-          img(src='@/assets/curso/tema6/img_7_1.png',  class="img-fluid d-block d-lg-none")
+      
 </template>
 
 <script>
