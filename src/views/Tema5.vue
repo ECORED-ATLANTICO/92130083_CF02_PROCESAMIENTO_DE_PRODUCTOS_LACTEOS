@@ -39,7 +39,7 @@
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-4(
                 texto="<I>Quesos del mundo: de la tradición colombiana a la técnica internacional.</I>"
-                :audio="require('@/assets/curso/tema3/img_2.png')"
+                :audio="require('@/assets/curso/podcast/podcast2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio") 
 

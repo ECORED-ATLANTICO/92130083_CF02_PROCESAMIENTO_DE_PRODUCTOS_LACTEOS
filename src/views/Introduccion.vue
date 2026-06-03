@@ -27,13 +27,7 @@
           figure
             img(src='@/assets/curso/introduccion/img_3.png', class="img-fluid")
 
-      .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-12.mb-3.mb-lg-0(data-aos="zoom-in-right")
-          figure.mb-2
-            .video.mb-2
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Composición de la leche, aditivos y procesos de elaboración de quesos.
-  
+
 </template>
 
 <script>

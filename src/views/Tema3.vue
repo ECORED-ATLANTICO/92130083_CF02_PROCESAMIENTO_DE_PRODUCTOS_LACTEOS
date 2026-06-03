@@ -26,8 +26,8 @@
             .col-12.col-md-8.col-lg-6.mb-lg-0
               h2.mb-5.text-white Pódcast
               TarjetaAudio.color-acento-botones.mb-0.p-4(
-                texto="<I>Aditivos en la industria láctea: ciencia y regulación para un queso perfecto.</I>"
-                :audio="require('@/assets/curso/tema3/img_2.png')"
+                texto="<I>Aditivos en la industria láctea: ciencia, función y regulación para un queso perfecto.</I>"
+                :audio="require('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio") 
 
