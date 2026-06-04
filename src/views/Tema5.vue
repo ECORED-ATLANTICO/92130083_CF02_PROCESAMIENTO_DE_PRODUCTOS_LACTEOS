@@ -26,7 +26,7 @@
     
     
     .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
-      p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
+      p.mb-0 Lo invitamos a explorar el siguiente pódcast: #[strong Quesos del mundo: de la tradición colombiana a la técnica internacional]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-12.col-lg-8
@@ -74,7 +74,7 @@
             th.col-auto.col-lg-auto Ejemplo de aplicación
         tbody
           tr
-            td.text-start(rowspan="5") Queso fresco.
+            td.text-start(rowspan="5") Queso fresco
             td 20
             td 0,33
             td.text-start Para queso fresco con 20 % grasa en extracto seco, si la leche tiene 3,2 % proteína, la grasa requerida es 1,06 %.

@@ -11,7 +11,7 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-0
         p.mb-3(data-aos="zoom-in-right") Los aditivos son sustancias que se añaden intencionalmente a los alimentos en pequeñas cantidades para mejorar sus características tecnológicas, sensoriales o de conservación. En la industria láctea, su uso está estrictamente regulado. En este capítulo se describen los aditivos más comunes en la elaboración de quesos, leches fermentadas y arequipe, destacando su función y las dosis autorizadas.
         .cajon.color-acento-contenido.p-4(data-aos="zoom-in-right")
-          p.mb-0 Lo invitamos a escuchar el siguiente Pódcast: Aditivos en la industria láctea: ciencia y regulación para un queso perfecto
+          p.mb-0 Lo invitamos a explorar el siguiente pódcast: Aditivos en la industria láctea: ciencia y regulación para un queso perfecto
       .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema3/img_1.png', class="img-fluid")

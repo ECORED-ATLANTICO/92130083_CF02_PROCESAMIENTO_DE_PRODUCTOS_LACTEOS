@@ -55,7 +55,7 @@
                     .tarjeta-icono-top__icono
                       figure
                         img(src='@/assets/curso/tema4/img_3.svg' alt='')
-                    p.mb-0  #[strong Mantenimiento:] limpieza CIP (Cleaning In Place) diaria con detergentes alcalinos y ácidos; inspección periódica de juntas y placas; calibración de sensores de temperatura.
+                    p.mb-0  #[strong Mantenimiento:] limpieza CIP (<em>Cleaning In Place</em>) diaria con detergentes alcalinos y ácidos; inspección periódica de juntas y placas; calibración de sensores de temperatura.
             .col-12.col-md-10.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")

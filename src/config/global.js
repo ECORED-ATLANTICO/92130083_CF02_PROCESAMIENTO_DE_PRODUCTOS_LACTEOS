@@ -3,7 +3,7 @@ export default {
     Name:
       'Composición de la leche, aditivos y procesos de elaboración de quesos',
     Description:
-      'Este componente formativo aborda los fundamentos de la composición fisicoquímica de la leche, su importancia como materia prima en la industria láctea, los requisitos de calidad exigidos por la normatividad colombiana, los aditivos autorizados y su función, y los procesos tecnológicos para la elaboración de diferentes tipos de queso. Se describen las etapas comunes del proceso quesero y las particularidades de variedades como queso blanco, campesino, <em>Camembert, Cheddar, Gruyere,< /em> doble crema, crema, parmesano y mozzarella.',
+      'Este componente formativo aborda los fundamentos de la composición fisicoquímica de la leche, su importancia como materia prima en la industria láctea, los requisitos de calidad exigidos por la normatividad colombiana, los aditivos autorizados y su función, y los procesos tecnológicos para la elaboración de diferentes tipos de queso. Se describen las etapas comunes del proceso quesero y las particularidades de variedades como queso blanco, campesino, <em>Camembert, Cheddar, Gruyere,</em> doble crema, crema, parmesano y mozzarella.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -358,7 +358,7 @@ export default {
     {
       referencia:
         'Meyer, M. R. (2014). <em>Elaboración de productos lácteos</em> (4.ª ed.). México: Trillas.',
-      link: 'https://www.trillas.mx/',
+      link: '',
     },
     {
       referencia:
@@ -373,8 +373,7 @@ export default {
     {
       referencia:
         'Universidad Nacional Abierta y a Distancia. (2014). <em>Tecnología de los quesos colombianos</em>.',
-      link:
-        'http://datateca.unad.edu.co/contenidos/301105/Archivos-2013-2/Modulo-linea/capitulo_2_tecnologia_de_los_quesos_colombianos.html',
+      link: '',
     },
   ],
   creditos: [

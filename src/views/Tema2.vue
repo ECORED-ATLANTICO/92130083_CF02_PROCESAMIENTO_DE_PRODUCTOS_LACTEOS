@@ -111,7 +111,7 @@
               .tarjeta--color-white.h-100
                 .tarjeta--08
                 h5.text-center.mb-3 Prueba de mastitis
-                p.mb-3 Mediante el California Mastitis Test (CMT) se detecta inflamación de la glándula mamaria. La leche proveniente de animales con mastitis presenta mayor contenido de células somáticas y puede afectar la calidad y coagulación.
+                p.mb-3 Mediante el <em>California Mastitis Test</em> (CMT) se detecta inflamación de la glándula mamaria. La leche proveniente de animales con mastitis presenta mayor contenido de células somáticas y puede afectar la calidad y coagulación.
     
     .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-right")
       p.mb-0 En la tabla se relacionan los parámetros de calidad exigidos para la leche cruda conforme al Decreto 616 de 2006, los cuales son fundamentales para asegurar su inocuidad y su adecuada utilización en la industria láctea.
