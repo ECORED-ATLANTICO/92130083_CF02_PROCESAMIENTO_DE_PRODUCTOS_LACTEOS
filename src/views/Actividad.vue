@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de los conceptos clave del componente (composición de la leche, calidad, aditivos, proceso de queso y variedades) mediante un cuestionario de verdadero/falso con retroalimentación breve.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos clave del componente (composición de la leche, calidad, aditivos, proceso de queso y variedades) mediante un cuestionario con retroalimentación breve.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -378,7 +378,7 @@ export default {
             { id: 'd', texto: '<em>Mucor miehei</em>', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Exacto. El moho <em>Penicillium camemberti</em> forma la corteza blanca característica del Camembert y contribuye a su sabor.',
+            'Exacto. El moho Penicillium camemberti forma la corteza blanca característica del Camembert y contribuye a su sabor.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

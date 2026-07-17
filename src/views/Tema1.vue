@@ -219,7 +219,7 @@
               p.mb-0 Entre 1,029 y 1,033 g/mL a 15 °C. La densidad disminuye con la adición de agua y aumenta con la adición de leche en polvo o con el descremado.
             .tarjeta.color-secundario-10.p-4(titulo="Punto de ebullición")
               h5.mb-3 Punto de ebullición
-              p.mb-0 Ligeramente superior al del agua, alrededor de 100,16 °C, debido a los sólidos disueltos.
+              p.mb-0 Ligeramente superior al del agua, alrededor de 100,16 °C, debido a la presencia de lactosa, sales minerales y otros sólidos disueltos que producen una elevación ebulloscópica. Este valor puede presentar ligeras variaciones según la composición y el contenido de sólidos totales de la leche.
             .tarjeta.color-secundario-10.p-4(titulo="Punto de congelación")
               h5.mb-3 Punto de congelación
               p.mb-0 Entre -0,530 y -0,550 °C; valores más altos indican adulteración con agua. La crioscopia es una prueba fundamental en los centros de acopio.

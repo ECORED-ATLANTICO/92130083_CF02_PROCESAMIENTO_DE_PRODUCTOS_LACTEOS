@@ -84,12 +84,12 @@
           tr
             td.text-start Nitrato de potasio (sal nitro)
             td.text-start Previene el crecimiento de bacterias indeseables (coliformes, clostridios) que causan hinchazón precoz y sabores anormales.
-            td.text-start 0,1 0,2 g / L
+            td.text-start 0,1 - 0,2 g / L
             td.text-start Su uso está restringido; en algunos países se ha reducido al mínimo. Es importante no exceder la dosis para evitar formación de nitrosaminas.
           tr
             td.text-start Cloruro de calcio
             td.text-start Nivela el calcio en la leche pasteurizada, mejora la coagulación, reduce el tiempo de coagulación y favorece la salida del suero.
-            td.text-start 0,1 0,2 g / L
+            td.text-start 0,1 - 0,2 g / L
             td.text-start Se añade después de la pasteurización, diluido en agua fría. Es especialmente útil en leches pasteurizadas que han perdido parte del calcio.
           tr
             td.text-start Colorantes (achiote)
@@ -99,17 +99,17 @@
           tr
             td.text-start Cuajo (rennina)
             td.text-start Coagula la caseína formando la cuajada. Puede ser de origen animal, microbiano o vegetal.
-            td.text-start Variable según concentración (ej. 20 40 mL de cuajo 10000 por 100 L)
+            td.text-start Variable según concentración (ej. 20 - 40 mL de cuajo 10000 por 100 L)
             td.text-start Se diluye en agua fría antes de agregar. La dosis se ajusta según la temperatura y el tipo de queso.
           tr
             td.text-start Sal (cloruro de sodio)
             td.text-start Aporta sabor, controla la fermentación, favorece el desuerado y contribuye a la conservación.
-            td.text-start 1 2 % sobre la cuajada
+            td.text-start 1 - 2 % sobre la cuajada
             td.text-start Puede añadirse en la leche, en la cuajada o en salmuera. En salmuera se usa una concentración del 23 %.
           tr
             td.text-start Cultivos lácticos
             td.text-start Microorganismos que acidifican la leche, desarrollan aroma y textura.
-            td.text-start 0,05 5 % según tipo
+            td.text-start 0,05 - 5 % según tipo
             td.text-start Difieren según el tipo de queso (mesófilos o termófilos). Se añaden antes del cuajo.
 
     Separador
@@ -143,7 +143,7 @@
             td.text-start Azúcar (sacarosa)
             td.text-start Yogur, arequipe
             td.text-start Endulza, mejora el sabor; en arequipe es esencial para la concentración y la textura.
-            td.text-start Variable según receta (20 30 % en arequipe).
+            td.text-start Variable según receta (20 - 30 % en arequipe).
           tr
             td.text-start Estabilizantes (goma xantan, carragenina, pectina)
             td.text-start Yogur

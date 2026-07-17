@@ -81,7 +81,7 @@
                     td.text-start.bg-table-01 Temperatura óptima para la coagulación.
                   tr
                     td.text-start.bg-table-01 Adición de cloruro de calcio
-                    td.text-start.bg-table-01 0,1 – 0,2 g/L; reposo 10 20 minutos
+                    td.text-start.bg-table-01 0,1 – 0,2 g/L; reposo 10 - 20 minutos
                     td.text-start.bg-table-01 Diluir en agua fría.
                   tr
                     td.text-start.bg-table-01 Agitación
@@ -118,10 +118,10 @@
                   tr
                     td.text-start.bg-table-01 Prensado
                     td.text-start.bg-table-01 Según consistencia deseada
-                    td.text-start.bg-table-01 Prensado suave (1 2 horas).
+                    td.text-start.bg-table-01 Prensado suave (1 - 2 horas).
                   tr
                     td.text-start.bg-table-01 Almacenamiento
-                    td.text-start.bg-table-01 Refrigeración (2 6 °C)
+                    td.text-start.bg-table-01 Refrigeración (2 - 6 °C)
                     td.text-start.bg-table-01 Vida útil 5 7 días.
           div(titulo="Queso campesino")
             p.mb-4 Similar al queso blanco pero con adición de nitrato de potasio para controlar fermentaciones indeseables. Se consume fresco.
@@ -259,7 +259,7 @@
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Calentamiento para hilado
-                    td.text-start.bg-table-01 Calentar cuajada a 72 75 °C durante 20 minutos hasta que se hile
+                    td.text-start.bg-table-01 Calentar cuajada a 72 - 75 °C durante 20 minutos hasta que se hile
                     td.text-start.bg-table-01 Proceso de pasta hilada
                   tr
                     td.text-start.bg-table-01 Moldeado
@@ -349,7 +349,7 @@
       .col-12.mb-0(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Queso <em>Camembert</em>")
-            p.mb-4 Queso de pasta blanda con moho superficial (<em>Penicillium camemberti</em>). Se caracteriza por su textura cremosa y sabor a hongos. La maduración es relativamente corta (4 6 semanas).
+            p.mb-4 Queso de pasta blanda con moho superficial (<em>Penicillium camemberti</em>). Se caracteriza por su textura cremosa y sabor a hongos. La maduración es relativamente corta (4 - 6 semanas).
             .titulo-sexto.color-acento-contenido
               h5 Tabla 12.
               |  Especificaciones para la elaboración de queso <em>Camembert</em>
@@ -410,7 +410,7 @@
                   tr
                     td.text-start.bg-table-01 Desuerado
                     td.text-start.bg-table-01 En los moldes, sin agitación
-                    td.text-start.bg-table-01 Durante 18 24 horas
+                    td.text-start.bg-table-01 Durante 18 - 24 horas
                   tr
                     td.text-start.bg-table-01 Volteo
                     td.text-start.bg-table-01 A la hora, voltear con rejilla
@@ -425,7 +425,7 @@
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Secado y maduración
-                    td.text-start.bg-table-01 1 2 días a 14 °C y 75 % HR; luego 12 días a 14 °C y 95 % HR; voltear dos veces
+                    td.text-start.bg-table-01 1 - 2 días a 14 °C y 75 % HR; luego 12 días a 14 °C y 95 % HR; voltear dos veces
                     td.text-start.bg-table-01 La alta humedad favorece el desarrollo del moho
                   tr
                     td.text-start.bg-table-01 Envasado
@@ -520,7 +520,7 @@
                     td.text-start.bg-table-01 Formación de corteza
                   tr
                     td.text-start.bg-table-01 Maduración
-                    td.text-start.bg-table-01 En parafina, a 4 °C durante 9 12 meses
+                    td.text-start.bg-table-01 En parafina, a 4 °C durante 9 - 12 meses
                     td.text-start.bg-table-01 Maduración fría prolongada
           div(titulo="Queso <em>Gruyere</em>")
             p.mb-4 Queso suizo de pasta dura, caracterizado por sus ojos (formados por gas producido por Propionibacterium shermanii) y su sabor a nuez. La maduración es larga y se realiza en dos fases de temperatura.
@@ -579,11 +579,11 @@
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Salado
-                    td.text-start.bg-table-01 Salmuera al 23 % durante 2 3 días, volteo diario
+                    td.text-start.bg-table-01 Salmuera al 23 % durante 2 - 3 días, volteo diario
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Maduración
-                    td.text-start.bg-table-01 2 3 semanas a 10 °C y 90 % HR (volteo diario, frotar con salmuera); luego 2 3 meses a 16 °C y 82 % HR; finalmente 4 12 meses a 13 °C
+                    td.text-start.bg-table-01 2 - 3 semanas a 10 °C y 90 % HR (volteo diario, frotar con salmuera); luego 2 - 3 meses a 16 °C y 82 % HR; finalmente 4 - 12 meses a 13 °C
                     td.text-start.bg-table-01 Fase cálida para desarrollo de ojos
           div(titulo="Queso Parmesano")
             p.mb-4 Queso italiano de pasta dura, utilizado principalmente rallado. Maduración de 1 a 2 años. Tiene bajo contenido de humedad y se elabora con leche parcialmente desnatada.
@@ -618,7 +618,7 @@
                     td.text-start.bg-table-01 Cultivos termófilos y mesófilos
                   tr
                     td.text-start.bg-table-01 Reposo
-                    td.text-start.bg-table-01 15 30 minutos
+                    td.text-start.bg-table-01 15 - 30 minutos
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Adición de cuajo
@@ -626,7 +626,7 @@
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Coagulación
-                    td.text-start.bg-table-01 20 30 minutos
+                    td.text-start.bg-table-01 20 - 30 minutos
                     td.text-start.bg-table-01 –
                   tr
                     td.text-start.bg-table-01 Corte
@@ -718,7 +718,7 @@
                   td.text-start.bg-table-01 –
                 tr
                   td.text-start.bg-table-01 Coagulación
-                  td.text-start.bg-table-01 20 30 minutos
+                  td.text-start.bg-table-01 20 - 30 minutos
                   td.text-start.bg-table-01 –
                 tr
                   td.text-start.bg-table-01 Corte

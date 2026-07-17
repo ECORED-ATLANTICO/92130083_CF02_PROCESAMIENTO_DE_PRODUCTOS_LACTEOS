@@ -54,7 +54,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-5 Normas Técnicas Colombianas (NTC)
-            p.mb-0 Conjunto de normas técnicas que establecen especificaciones y métodos de ensayo para productos lácteos, como la NTC 1578 para leche cruda y la NTC 1579 para leche pasteurizada, proporcionando criterios estandarizados de calidad que complementan la regulación sanitaria vigente.
+            p.mb-0 Conjunto de normas técnicas que establecen especificaciones, requisitos y métodos de ensayo para productos, procesos y servicios de diferentes sectores productivos. Para el sector lácteo, sobresalen la NTC 1578 para leche cruda y la NTC 1579 para leche pasteurizada, las cuales complementan la normativa sanitaria y los criterios de calidad aplicables a estos productos.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema2/img_6.png', class="img-fluid")
